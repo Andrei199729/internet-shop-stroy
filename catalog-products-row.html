@@ -1,0 +1,2296 @@
+<!DOCTYPE html>
+<html lang="кг">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/icons/favicon.svg" type="image/svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/fonts/fonts.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Главная</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="header-bg">
+            <div class="container">
+                <div class="header__container dFlex">
+                    <nav class="header__container-nav">
+                        <ul class="header__container-nav__lists dFlex">
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">О компании</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Дилерам</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Акции</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Доставка</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Оплата</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__container-telephone dFlex">
+                        <a class="header__container-telephone__link dFlex" href="tel:+73427767878">
+                            <img class="header__container-telephone__icon" src="./assets/images/icons/call-icon.svg"
+                                alt="Телефон">
+                            +7 (342) 776-78-78
+                        </a>
+                        <a href="tel:+73427767878" class="header__container-telephone__text">Заказать звонок</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__block">
+                <div class="header__block-container dFlex">
+                    <div class="header__block-container__box aIc dFlex">
+                        <a class="header__block-container__box-logo" href="#">
+                            <img class="header__block-container__box-logo__icon" src="./assets/images/icons/logo.svg"
+                                alt="Поставка№1">
+                        </a>
+                        <button class="btn active header__block-btn dFlex" type="button">
+                            <div class="header__block-btn__square dGrid">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            Каталог
+                        </button>
+                        <form class="header__block-form" action="https://jsonplaceholder.typicode.com/posts"
+                            method="post">
+                            <label class="header__block-label" for="search">
+                                <input class="header__block-label__input inputSearch" type="search" name="search"
+                                    id="search" placeholder="Нажмите, чтобы начать поиск..." required>
+                                <button class="btn__form-search" type="submit"></button>
+                            </label>
+                        </form>
+                    </div>
+                    <ul class="header__block-path__page-lists dFlex">
+                        <li class="header__block-path__page-list">
+                            <a class="header__block-path__page-link dFlex" href="#">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1 0.5C0.723858 0.5 0.5 0.723858 0.5 1C0.5 1.27614 0.723858 1.5 1 1.5L1 0.5ZM3.22222 1L3.70729 0.878732C3.65165 0.656149 3.45166 0.5 3.22222 0.5V1ZM15.2222 13.0556C15.4984 13.0556 15.7222 12.8317 15.7222 12.5556C15.7222 12.2794 15.4984 12.0556 15.2222 12.0556V13.0556ZM17 2.77778L17.4851 2.89905C17.5224 2.74968 17.4889 2.59143 17.3941 2.47007C17.2993 2.34871 17.154 2.27778 17 2.27778V2.77778ZM15.2222 9.88889V10.3889C15.4517 10.3889 15.6516 10.2327 15.7073 10.0102L15.2222 9.88889ZM1 1.5H3.22222V0.5H1L1 1.5ZM2.73715 1.12127L3.1816 2.89905L4.15174 2.65651L3.70729 0.878732L2.73715 1.12127ZM3.1816 2.89905L4.95937 10.0102L5.92952 9.76762L4.15174 2.65651L3.1816 2.89905ZM5.44444 9.38889H5V10.3889H5.44444V9.38889ZM5 13.0556H15.2222V12.0556H5V13.0556ZM3.16667 11.2222C3.16667 12.2347 3.98748 13.0556 5 13.0556V12.0556C4.53976 12.0556 4.16667 11.6825 4.16667 11.2222H3.16667ZM5 9.38889C3.98748 9.38889 3.16667 10.2097 3.16667 11.2222H4.16667C4.16667 10.762 4.53976 10.3889 5 10.3889V9.38889ZM3.66667 3.27778H17V2.27778H3.66667V3.27778ZM16.5149 2.65651L14.7372 9.76762L15.7073 10.0102L17.4851 2.89905L16.5149 2.65651ZM15.2222 9.38889H5.44444V10.3889H15.2222V9.38889ZM14.7222 16.1111C14.7222 16.3259 14.5481 16.5 14.3333 16.5V17.5C15.1004 17.5 15.7222 16.8782 15.7222 16.1111H14.7222ZM14.3333 16.5C14.1186 16.5 13.9444 16.3259 13.9444 16.1111H12.9444C12.9444 16.8782 13.5663 17.5 14.3333 17.5V16.5ZM13.9444 16.1111C13.9444 15.8963 14.1186 15.7222 14.3333 15.7222V14.7222C13.5663 14.7222 12.9444 15.344 12.9444 16.1111H13.9444ZM14.3333 15.7222C14.5481 15.7222 14.7222 15.8963 14.7222 16.1111H15.7222C15.7222 15.344 15.1004 14.7222 14.3333 14.7222V15.7222ZM5.83333 16.1111C5.83333 16.3259 5.65922 16.5 5.44444 16.5V17.5C6.21151 17.5 6.83333 16.8782 6.83333 16.1111H5.83333ZM5.44444 16.5C5.22967 16.5 5.05556 16.3259 5.05556 16.1111H4.05556C4.05556 16.8782 4.67738 17.5 5.44444 17.5V16.5ZM5.05556 16.1111C5.05556 15.8963 5.22967 15.7222 5.44444 15.7222V14.7222C4.67738 14.7222 4.05556 15.344 4.05556 16.1111H5.05556ZM5.44444 15.7222C5.65922 15.7222 5.83333 15.8963 5.83333 16.1111H6.83333C6.83333 15.344 6.21151 14.7222 5.44444 14.7222V15.7222Z"
+                                        fill="#3F3F3F" />
+                                </svg>
+                                Корзина
+                            </a>
+                        </li>
+                        <li class="header__block-path__page-list">
+                            <a class="header__block-path__page-link dFlex" href="#">
+                                <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                        stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                                Избранное
+                            </a>
+                        </li>
+                        <li class="header__block-path__page-list">
+                            <a class="header__block-path__page-link dFlex" href="#">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                        fill="white" stroke="#4F4F4F" />
+                                    <path
+                                        d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                        fill="white" stroke="#4F4F4F" />
+                                </svg>
+                                Сравнение
+                            </a>
+                        </li>
+                        <li class="header__block-path__page-list">
+                            <a class="header__block-path__page-link dFlex" href="#">
+                                <svg width="15" height="17" viewBox="0 0 15 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4.28571 4.26471C4.28571 2.45528 5.73113 1 7.5 1C9.26887 1 10.7143 2.45528 10.7143 4.26471C10.7143 6.07413 9.26887 7.52941 7.5 7.52941C5.73113 7.52941 4.28571 6.07413 4.28571 4.26471ZM7.5 0C5.16618 0 3.28571 1.91575 3.28571 4.26471C3.28571 6.61366 5.16618 8.52941 7.5 8.52941C9.83382 8.52941 11.7143 6.61366 11.7143 4.26471C11.7143 1.91575 9.83382 0 7.5 0ZM1.5 14.9314C1.5 13.4564 2.64539 12.2941 4.01786 12.2941H10.9821C12.3546 12.2941 13.5 13.4564 13.5 14.9314V16H1.5V14.9314ZM4.01786 11.2941C2.05689 11.2941 0.5 12.941 0.5 14.9314V16.5C0.5 16.7761 0.723858 17 1 17H14C14.2761 17 14.5 16.7761 14.5 16.5V14.9314C14.5 12.941 12.9431 11.2941 10.9821 11.2941H4.01786Z"
+                                        fill="#3F3F3F" />
+                                </svg>
+                                Войти
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="path__block dFlex">
+            <a href="#">Главная</a>
+            <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L4.5 4.25L1 0.75" stroke="#626262" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <a href="#">Каталог товаров</a>
+            <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L4.5 4.25L1 0.75" stroke="#626262" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <a href="#">Профили</a>
+        </div>
+        <div class="best-deals__texts block__title dFlex">
+            <div class="profiles__product-texts dFlex">
+                <h1 class="path__block-title">Профили</h1>
+                <p class="profiles__product-text">Найдено товаров: <span>444</span></p>
+            </div>
+            <div class="block__title-position dFlex">
+                <a href="#" class="block__title-position__squarу btn__position dGrid" data-tab="position1">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <a href="#" class="block__title-position__row btn__position active dFlex" data-tab="position2">
+                    <span></span>
+                    <span></span>
+                </a>
+                <div class="select">
+                    <div class="select__btn dFlex">
+                        <p>Сортровка</p>
+                        <img src="./assets/images/icons/arrow.svg" alt="Стрелка">
+                    </div>
+                    <div class="select__content">
+                        <ul class="dFlex">
+                            <li>text</li>
+                            <li>text</li>
+                            <li>text</li>
+                            <li>text</li>
+                            <li>text</li>
+                            <li>text</li>
+                            <li>text</li>
+                            <li>text</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content__container dFlex">
+            <aside class="aside dFlex">
+                <div class="aside__category">
+                    <div class="scrollbar__block aside__scrollbar">
+                        <h2 class="aside__category-title">Все категории</h2>
+                        <ul class="aside__category-lists dFlex">
+                            <li>
+                                <a class="aside__category-link" href="#">Профили</a>
+                            </li>
+                            <li>
+                                <a class="aside__category-link" href="#">Комплектующие</a>
+                            </li>
+                            <li>
+                                <a class="aside__category-link" href="#">Рассеиватели, вставки, торцы</a>
+                            </li>
+                            <li>
+                                <a class="aside__category-link" href="#">Светотехника</a>
+                            </li>
+                            <li>
+                                <a class="aside__category-link" href="#">Освещение</a>
+                            </li>
+                            <li>
+                                <a class="aside__category-link" href="#">Инструменты</a>
+                            </li>
+                            <li>
+                                <a class="aside__category-link" href="#">Крепеж</a>
+                            </li>
+                            <li>
+                                <a class="aside__category-link" href="#">Карнизы</a>
+                            </li>
+                            <li>
+                                <a class="aside__category-link" href="#">Электрика</a>
+                            </li>
+                            <li>
+                                <a class="aside__category-link" href="#">Профили</a>
+                            </li>
+                            <li>
+                                <a class="aside__category-link" href="#">Комплектующие</a>
+                            </li>
+                            <li>
+                                <a class="aside__category-link" href="#">Рассеиватели, вставки, торцы</a>
+                            </li>
+                            <li>
+                                <a class="aside__category-link" href="#">Светотехника</a>
+                            </li>
+                            <li>
+                                <a class="aside__category-link" href="#">Освещение</a>
+                            </li>
+                            <li>
+                                <a class="aside__category-link" href="#">Инструменты</a>
+                            </li>
+                            <li>
+                                <a class="aside__category-link" href="#">Крепеж</a>
+                            </li>
+                            <li>
+                                <a class="aside__category-link" href="#">Карнизы</a>
+                            </li>
+                            <li>
+                                <a class="aside__category-link" href="#">Электрика</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="aside__category-select">
+                    <div class="aside__category-select__block">
+                        <div class="aside__category-select__box">
+                            <p class="aside__category-link aside__category-select__box-text">Цена, ₽</p>
+                            <div class="aside__category-select__box-inputs dFlex">
+                                <label class="aside__category-select__box-label" for="inputPriceFrom">
+                                    <div class="aside__category-select__box-label__box">
+                                        <p class="aside__category-select__box-label__text">от</p>
+                                        <textarea class="aside__category-select__box-label__textarea" name=""
+                                            id="minOutput" data-target="minPrice">14</textarea>
+                                    </div>
+                                    <input class="aside__category-select__box-label__input" id="minPrice" type="range"
+                                        name="inputPriceFrom" data-target="minOutput" min="14" max="10000" value="14"
+                                        step="1">
+                                </label>
+                                <span></span>
+                                <label class="aside__category-select__box-label" for="inputPriceFrom">
+                                    <div class="aside__category-select__box-label__box">
+                                        <p class="aside__category-select__box-label__text">до</p>
+                                        <textarea class="aside__category-select__box-label__textarea" name=""
+                                            id="maxOutput" data-target="maxPrice">20000</textarea>
+                                    </div>
+                                    <input class="aside__category-select__box-label__input" id="maxPrice" type="range"
+                                        name="inputPriceFBefore" data-target="maxOutput" min="10000" max="20000"
+                                        value="20000" step="1">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="aside__category-select__block">
+                        <div class="aside__category-select__block_box">
+                            <div class="aside__category-select__box">
+                                <div class="aside__category-select__box-select dFlex" data-select="select1">
+                                    <p class="aside__category-link aside__category-select__box-text">Материал</p>
+                                    <img src="./assets/images/icons/arrow.svg" alt="Стрелка">
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="aside__category-select__block-checkboxes__lists" id="select1">
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check1"
+                                    id="check1">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check1">Аллюминий</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check2"
+                                    id="check2">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check2">Пластик</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check3"
+                                    id="check3">
+                                <label class="aside__category-select__block-checkbox__label" for="check3">ДСП</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check4"
+                                    id="check4">
+                                <label class="aside__category-select__block-checkbox__label" for="check4">Железо</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aside__category-select__block">
+                        <div class="aside__category-select__block_box">
+                            <div class="aside__category-select__box">
+                                <div class="aside__category-select__box-select dFlex" data-select="select2">
+                                    <p class="aside__category-link aside__category-select__box-text">Бренд</p>
+                                    <img src="./assets/images/icons/arrow.svg" alt="Стрелка">
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="aside__category-select__block-checkboxes__lists" id="select2">
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check5"
+                                    id="check5">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check5">Аллюминий</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check6"
+                                    id="check6">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check6">Пластик</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check7"
+                                    id="check7">
+                                <label class="aside__category-select__block-checkbox__label" for="check7">ДСП</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check8"
+                                    id="check8">
+                                <label class="aside__category-select__block-checkbox__label" for="check8">Железо</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aside__category-select__block">
+                        <div class="aside__category-select__block_box">
+                            <div class="aside__category-select__box">
+                                <div class="aside__category-select__box-select dFlex" data-select="select3">
+                                    <p class="aside__category-link aside__category-select__box-text">Назначение</p>
+                                    <img src="./assets/images/icons/arrow.svg" alt="Стрелка">
+                                </div>
+
+                            </div>
+                        </div>
+                        <ul class="aside__category-select__block-checkboxes__lists" id="select3">
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check9"
+                                    id="check9">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check9">Аллюминий</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check10"
+                                    id="check10">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check10">Пластик</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check11"
+                                    id="check11">
+                                <label class="aside__category-select__block-checkbox__label" for="check11">ДСП</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check12"
+                                    id="check12">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check12">Железо</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aside__category-select__block">
+                        <div class="aside__category-select__block_box">
+                            <div class="aside__category-select__box">
+                                <div class="aside__category-select__box-select dFlex" data-select="select4">
+                                    <p class="aside__category-link aside__category-select__box-text">Длина, мм</p>
+                                    <img src="./assets/images/icons/arrow.svg" alt="Стрелка">
+                                </div>
+
+                            </div>
+                        </div>
+                        <ul class="aside__category-select__block-checkboxes__lists" id="select4">
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check13"
+                                    id="check13">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check13">Аллюминий</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check14"
+                                    id="check14">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check14">Пластик</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check15"
+                                    id="check15">
+                                <label class="aside__category-select__block-checkbox__label" for="check15">ДСП</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check16"
+                                    id="check16">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check16">Железо</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aside__category-select__block">
+                        <div class="aside__category-select__block_box">
+                            <div class="aside__category-select__box">
+                                <div class="aside__category-select__box-select dFlex" data-select="select5">
+                                    <p class="aside__category-link aside__category-select__box-text">Ширина, мм</p>
+                                    <img src="./assets/images/icons/arrow.svg" alt="Стрелка">
+                                </div>
+
+                            </div>
+                        </div>
+                        <ul class="aside__category-select__block-checkboxes__lists" id="select5">
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check17"
+                                    id="check17">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check17">Аллюминий</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check18"
+                                    id="check18">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check18">Пластик</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check19"
+                                    id="check19">
+                                <label class="aside__category-select__block-checkbox__label" for="check19">ДСП</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check20"
+                                    id="check20">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check20">Железо</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aside__category-select__block">
+                        <div class="aside__category-select__block_box">
+                            <div class="aside__category-select__box">
+                                <div class="aside__category-select__box-select dFlex" data-select="select6">
+                                    <p class="aside__category-link aside__category-select__box-text">Цвет
+                                    </p>
+                                    <img src="./assets/images/icons/arrow.svg" alt="Стрелка">
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="aside__category-select__block-checkboxes__lists" id="select6">
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check21"
+                                    id="check21">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check21">Аллюминий</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check22"
+                                    id="check22">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check22">Пластик</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check23"
+                                    id="check23">
+                                <label class="aside__category-select__block-checkbox__label" for="check23">ДСП</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check24"
+                                    id="check24">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check24">Железо</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aside__category-select__block">
+                        <div class="aside__category-select__block_box">
+                            <div class="aside__category-select__box">
+                                <div class="aside__category-select__box-select dFlex" data-select="select7">
+                                    <p class="aside__category-link aside__category-select__box-text">Крепление</p>
+                                    <img src="./assets/images/icons/arrow.svg" alt="Стрелка">
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="aside__category-select__block-checkboxes__lists" id="select7">
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check25"
+                                    id="check25">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check25">Аллюминий</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check26"
+                                    id="check26">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check26">Пластик</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check27"
+                                    id="check27">
+                                <label class="aside__category-select__block-checkbox__label" for="check27">ДСП</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check28"
+                                    id="check28">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check28">Железо</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aside__category-select__block">
+                        <div class="aside__category-select__block_box">
+                            <div class="aside__category-select__box">
+                                <div class="aside__category-select__box-select dFlex" data-select="select8">
+                                    <p class="aside__category-link aside__category-select__box-text">Рядность</p>
+                                    <img src="./assets/images/icons/arrow.svg" alt="Стрелка">
+                                </div>
+
+                            </div>
+                        </div>
+                        <ul class="aside__category-select__block-checkboxes__lists" id="select8">
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check29"
+                                    id="check29">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check29">Аллюминий</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check30"
+                                    id="check30">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check30">Пластик</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check31"
+                                    id="check31">
+                                <label class="aside__category-select__block-checkbox__label" for="check31">ДСП</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check32"
+                                    id="check32">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check32">Железо</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aside__category-select__block">
+                        <div class="aside__category-select__block_box">
+                            <div class="aside__category-select__box">
+                                <div class="aside__category-select__box-select dFlex" data-select="select9">
+                                    <p class="aside__category-link aside__category-select__box-text">Температура
+                                        свечения
+                                    </p>
+                                    <img src="./assets/images/icons/arrow.svg" alt="Стрелка">
+                                </div>
+
+                            </div>
+                        </div>
+                        <ul class="aside__category-select__block-checkboxes__lists" id="select9">
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check33"
+                                    id="check33">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check33">Аллюминий</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check34"
+                                    id="check34">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check34">Пластик</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check35"
+                                    id="check35">
+                                <label class="aside__category-select__block-checkbox__label" for="check35">ДСП</label>
+                            </li>
+                            <li class="aside__category-select__block-checkbox__list">
+                                <input class="aside__category-select__block-checkbox" type="checkbox" name="check36"
+                                    id="check36">
+                                <label class="aside__category-select__block-checkbox__label"
+                                    for="check36">Железо</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aside__category-btn">
+                        <button class="btnBorder btnBorder__aside" type="button">Сбросить фильтры</button>
+                    </div>
+                </div>
+            </aside>
+            <main class="main main__category main__profiles" id="main">
+                <section class="section-main__catalog-cards">
+                    <div class="best-deals__tabs dFlex">
+                        <button class="btn btn-main__catalog-cards btn-main__catalog-cards-two active"
+                            data-tab="tab1">Все для натяжных
+                            потолков</button>
+                        <button class="btn btn-main__catalog-cards btn-main__catalog-cards-two" data-tab="tab2">Все для
+                            гипсокартонных
+                            потолков</button>
+                        <button class="btn btn-main__catalog-cards btn-main__catalog-cards-two"
+                            data-tab="tab3">Освещение</button>
+                    </div>
+                    <div class="main__catalog-cards active" id="position2">
+                        <div class="main__catalog-cards__block catalog__page active" id="tab1">
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__catalog-cards__block catalog__page" id="tab2">
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__catalog-cards__block catalog__page" id="tab3">
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div
+                                        class="swiper swiper-container product__swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex"
+                                            id="swiper-wrapper-c3b176f82f2b5ac1" aria-live="polite">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-active"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="1 / 3" data-swiper-slide-index="0"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide swiper-slide-next"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="2 / 3" data-swiper-slide-index="1"
+                                                style="width: 410px; margin-right: 15px;">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ" role="group"
+                                                aria-label="3 / 3" data-swiper-slide-index="2"
+                                                style="width: 410px; margin-right: 15px;">
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiperWrapperProduct__paginations swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 1"
+                                                aria-current="true"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 3"></span>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+
+                                </div>
+                                <div class="product__texts main__profile-product__texts dFlex">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <ul class="main__profile-lists">
+                                        <li class="main__profile-list"><span>Тип товара:</span> Верстак-тиски</li>
+                                        <li class="main__profile-list"><span>Бренд:</span> Docke</li>
+                                        <li class="main__profile-list"><span>Материал:</span> Пластик</li>
+                                        <li class="main__profile-list"><span>Цвет:</span> Красный</li>
+                                        <li class="main__profile-list"><span>Состав:</span> ПВХ</li>
+                                    </ul>
+                                </div>
+                                <div class="main__profile-product__price dFlex">
+                                    <div class="product__count-price__box dFlex">
+                                        <p class="product__count-price__number">29</p>
+                                        <span>₽</span>
+                                    </div>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled=""></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey main__profile-btn">Добавить в
+                                        корзину</button>
+                                </div>
+                                <div class="swiperWrapperProduct__icons main__profile-product__icons dFlex">
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icon dFlex">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                            <path
+                                                d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                fill="white" stroke="#4F4F4F"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btnLoad">Загрузить еще</button>
+                </section>
+            </main>
+        </div>
+    </div>
+    <section class="form-help">
+        <div class="container">
+            <div class="form-help__container">
+                <div class="bg-image__form"></div>
+                <h1>Не нашли нужный товар?<br /> Мы поможем с поиском</h1>
+                <form class="form-help__block dFlex" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                    <label class="form-help__block-label dFlex" for="nameInput">
+                        <p>Ваше имя</p>
+                        <input class="inputPickUp" type="text" value="Александр" placeholder="Введите ваше имя"
+                            name="nameInput" id="nameInput" required>
+                    </label>
+                    <label class="form-help__block-label dFlex" for="telInput">
+                        <p>Телефон</p>
+                        <input class="inputPickUp" type="tel" value="+79999999999" placeholder="Введите ваш телефон"
+                            id="telInput" name="telInput" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}+" required>
+                    </label>
+                    <label class="form-help__block-label dFlex" for="productInput">
+                        <p>Название товара</p>
+                        <input class="inputPickUp" type="text" value="Что вы ищете?"
+                            placeholder="Введите название товара" id="productInput" name="productInput" required>
+                    </label>
+                    <div class="btnPickUp__block dFlex">
+                        <button class="btnPickUp" type="submit">Подобрать</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__top dFlex">
+                <div class="footer__top-contacts dFlex">
+                    <div>
+                        <h3 class="footer__subtitle">Контакты</h3>
+                        <div class="footer__top-contacts__box dFlex">
+                            <div class="footer__top-contacts__box-texts dFlex">
+                                <a class="footer__top-contacts__box-texts__link" href="tel:+79119244396">+7 (911)
+                                    924-43-96</a>
+                                <a href="tel:+79119244396">Заказать
+                                    звонок</a>
+                            </div>
+                            <div class="footer__top-contacts__box-texts dFlex">
+                                <a class="footer__top-contacts__box-texts__link"
+                                    href="mailto:opt@postavka-1.ru">opt@postavka-1.ru</a>
+                                <a href="mailto:opt@postavka-1.ru">Написать на почту</a>
+                            </div>
+                            <div class="footer__top-contacts__box-texts dFlex">
+                                <p>г. Санкт-Петербург</p>
+                                <p class="footer__top-contacts__box-street">ул. Репищева, д.14 литера АД</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__top-contacts__social dFlex">
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="footer__top-box">
+                    <div class="footer__top-box__block dFlex">
+                        <div class="footer__top-catalog">
+                            <h3 class="footer__subtitle">Каталог</h3>
+                            <div class="footer__top-catalog__box dFlex">
+                                <ul class="footer__top-catalog__lists dFlex">
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Профили</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Комплектующие</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Рассеиватели, вставки, торцы</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Светильники</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Инструменты</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Освещение</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Крепеж</a>
+                                    </li>
+                                </ul>
+                                <ul class="footer__top-catalog__lists dFlex">
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Карнизы</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Электрика</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Вентиляция и магнитные решетки</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Диски по металлу, сверла</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Люки</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Сопутствующие товары</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer__top-information">
+                            <h3 class="footer__subtitle">Информация</h3>
+                            <div>
+                                <ul class="footer__top-catalog__lists dFlex">
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">О компании</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Цены</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Акции</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Контакты</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Инструменты</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Освещение</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Крепеж</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="footer__top-box__text">Обращаем Ваше внимание на то, что данный интернет-сайт носит
+                        исключительно информационный характер и ни при каких
+                        условиях информационные материалы и цены, размещенные на сайте, не являются публичной офертой,
+                        определяемой положениями
+                        Статей 435 и 437 Гражданского кодекса РФ. Ваш заказ, включая стоимость и наличие товара, будет
+                        подтвержден нашим
+                        менеджером посредством телефонного звонка на номер, указанный Вами при заказе.</p>
+                </div>
+            </div>
+            <div class="footer__bottom dFlex">
+                <a class="header__block-container__box-logo" href="#">
+                    <img class="header__block-container__box-logo__icon" src="./assets/images/icons/logo.svg"
+                        alt="Поставка№1">
+                </a>
+                <div class="footer__bottom-box dFlex">
+                    <div class="footer__bottom-requisites dFlex">
+                        <ul class="footer__bottom-requisites__lists">
+                            <li class="footer__bottom-requisites__list footer__top-box__text">ООО «ПОСТАВКА №1»</li>
+                            <li class="footer__bottom-requisites__list footer__top-box__text">ИНН: 7814569857</li>
+                            <li class="footer__bottom-requisites__list footer__top-box__text">ОГРН: 1137847152827</li>
+                        </ul>
+                        <ul class="footer__bottom-requisites__lists">
+                            <li class="footer__bottom-requisites__list footer__top-box__text">
+                                <a href="#">Политика конфиденциальности</a>
+                            </li>
+                            <li class="footer__bottom-requisites__list footer__top-box__text">
+                                <a href="#"></a>Публичная
+                                оферта</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__bottom-box__partners dFlex">
+                        <a href="#" class="footer__bottom-box__partners-text">Разработка сайта</a>
+                        <a href="#" class="footer__bottom-box__partner">Helmut & Partners</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

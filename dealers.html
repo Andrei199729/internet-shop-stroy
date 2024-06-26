@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="кг">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/icons/favicon.svg" type="image/svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/fonts/fonts.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Главная</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="header-bg">
+            <div class="container">
+                <div class="header__container dFlex">
+                    <nav class="header__container-nav">
+                        <ul class="header__container-nav__lists dFlex">
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">О компании</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Дилерам</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Акции</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Доставка</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Оплата</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__container-telephone dFlex">
+                        <a class="header__container-telephone__link dFlex" href="tel:+73427767878">
+                            <img class="header__container-telephone__icon" src="./assets/images/icons/call-icon.svg"
+                                alt="Телефон">
+                            +7 (342) 776-78-78
+                        </a>
+                        <a href="tel:+73427767878" class="header__container-telephone__text">Заказать звонок</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__block">
+                <div class="header__block-container dFlex">
+                    <div class="header__block-container__box aIc dFlex">
+                        <a class="header__block-container__box-logo" href="#">
+                            <img class="header__block-container__box-logo__icon" src="./assets/images/icons/logo.svg"
+                                alt="Поставка№1">
+                        </a>
+                        <button class="btn active header__block-btn dFlex" type="button">
+                            <div class="header__block-btn__square dGrid">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            Каталог
+                        </button>
+                        <form class="header__block-form" action="https://jsonplaceholder.typicode.com/posts"
+                            method="post">
+                            <label class="header__block-label" for="search">
+                                <input class="header__block-label__input inputSearch" type="search" name="search"
+                                    id="search" placeholder="Нажмите, чтобы начать поиск..." required>
+                                <button class="btn__form-search" type="submit"></button>
+                            </label>
+                        </form>
+                    </div>
+                    <ul class="header__block-path__page-lists dFlex">
+                        <li class="header__block-path__page-list">
+                            <a class="header__block-path__page-link dFlex" href="#">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1 0.5C0.723858 0.5 0.5 0.723858 0.5 1C0.5 1.27614 0.723858 1.5 1 1.5L1 0.5ZM3.22222 1L3.70729 0.878732C3.65165 0.656149 3.45166 0.5 3.22222 0.5V1ZM15.2222 13.0556C15.4984 13.0556 15.7222 12.8317 15.7222 12.5556C15.7222 12.2794 15.4984 12.0556 15.2222 12.0556V13.0556ZM17 2.77778L17.4851 2.89905C17.5224 2.74968 17.4889 2.59143 17.3941 2.47007C17.2993 2.34871 17.154 2.27778 17 2.27778V2.77778ZM15.2222 9.88889V10.3889C15.4517 10.3889 15.6516 10.2327 15.7073 10.0102L15.2222 9.88889ZM1 1.5H3.22222V0.5H1L1 1.5ZM2.73715 1.12127L3.1816 2.89905L4.15174 2.65651L3.70729 0.878732L2.73715 1.12127ZM3.1816 2.89905L4.95937 10.0102L5.92952 9.76762L4.15174 2.65651L3.1816 2.89905ZM5.44444 9.38889H5V10.3889H5.44444V9.38889ZM5 13.0556H15.2222V12.0556H5V13.0556ZM3.16667 11.2222C3.16667 12.2347 3.98748 13.0556 5 13.0556V12.0556C4.53976 12.0556 4.16667 11.6825 4.16667 11.2222H3.16667ZM5 9.38889C3.98748 9.38889 3.16667 10.2097 3.16667 11.2222H4.16667C4.16667 10.762 4.53976 10.3889 5 10.3889V9.38889ZM3.66667 3.27778H17V2.27778H3.66667V3.27778ZM16.5149 2.65651L14.7372 9.76762L15.7073 10.0102L17.4851 2.89905L16.5149 2.65651ZM15.2222 9.38889H5.44444V10.3889H15.2222V9.38889ZM14.7222 16.1111C14.7222 16.3259 14.5481 16.5 14.3333 16.5V17.5C15.1004 17.5 15.7222 16.8782 15.7222 16.1111H14.7222ZM14.3333 16.5C14.1186 16.5 13.9444 16.3259 13.9444 16.1111H12.9444C12.9444 16.8782 13.5663 17.5 14.3333 17.5V16.5ZM13.9444 16.1111C13.9444 15.8963 14.1186 15.7222 14.3333 15.7222V14.7222C13.5663 14.7222 12.9444 15.344 12.9444 16.1111H13.9444ZM14.3333 15.7222C14.5481 15.7222 14.7222 15.8963 14.7222 16.1111H15.7222C15.7222 15.344 15.1004 14.7222 14.3333 14.7222V15.7222ZM5.83333 16.1111C5.83333 16.3259 5.65922 16.5 5.44444 16.5V17.5C6.21151 17.5 6.83333 16.8782 6.83333 16.1111H5.83333ZM5.44444 16.5C5.22967 16.5 5.05556 16.3259 5.05556 16.1111H4.05556C4.05556 16.8782 4.67738 17.5 5.44444 17.5V16.5ZM5.05556 16.1111C5.05556 15.8963 5.22967 15.7222 5.44444 15.7222V14.7222C4.67738 14.7222 4.05556 15.344 4.05556 16.1111H5.05556ZM5.44444 15.7222C5.65922 15.7222 5.83333 15.8963 5.83333 16.1111H6.83333C6.83333 15.344 6.21151 14.7222 5.44444 14.7222V15.7222Z"
+                                        fill="#3F3F3F" />
+                                </svg>
+                                Корзина
+                            </a>
+                        </li>
+                        <li class="header__block-path__page-list">
+                            <a class="header__block-path__page-link dFlex" href="#">
+                                <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                        stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                                Избранное
+                            </a>
+                        </li>
+                        <li class="header__block-path__page-list">
+                            <a class="header__block-path__page-link dFlex" href="#">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                        fill="white" stroke="#4F4F4F" />
+                                    <path
+                                        d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                        fill="white" stroke="#4F4F4F" />
+                                </svg>
+                                Сравнение
+                            </a>
+                        </li>
+                        <li class="header__block-path__page-list">
+                            <a class="header__block-path__page-link dFlex" href="#">
+                                <svg width="15" height="17" viewBox="0 0 15 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4.28571 4.26471C4.28571 2.45528 5.73113 1 7.5 1C9.26887 1 10.7143 2.45528 10.7143 4.26471C10.7143 6.07413 9.26887 7.52941 7.5 7.52941C5.73113 7.52941 4.28571 6.07413 4.28571 4.26471ZM7.5 0C5.16618 0 3.28571 1.91575 3.28571 4.26471C3.28571 6.61366 5.16618 8.52941 7.5 8.52941C9.83382 8.52941 11.7143 6.61366 11.7143 4.26471C11.7143 1.91575 9.83382 0 7.5 0ZM1.5 14.9314C1.5 13.4564 2.64539 12.2941 4.01786 12.2941H10.9821C12.3546 12.2941 13.5 13.4564 13.5 14.9314V16H1.5V14.9314ZM4.01786 11.2941C2.05689 11.2941 0.5 12.941 0.5 14.9314V16.5C0.5 16.7761 0.723858 17 1 17H14C14.2761 17 14.5 16.7761 14.5 16.5V14.9314C14.5 12.941 12.9431 11.2941 10.9821 11.2941H4.01786Z"
+                                        fill="#3F3F3F" />
+                                </svg>
+                                Войти
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="path__block dFlex">
+            <a href="#">Главная</a>
+            <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L4.5 4.25L1 0.75" stroke="#626262" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <a href="#">Дилерам</a>
+        </div>
+        <div class="best-deals__texts">
+            <h1 class="path__block-title">Дилерам</h1>
+        </div>
+        <div class="content__container dFlex">
+            <main class="main main__category dealers">
+                <section class="section-main__catalog-cards dFlex">
+                    <div class="section-dealers">
+                        <div class="best-deals__tabs dFlex">
+                            <button class="btn btn-main__catalog-cards dealers__btn-cards active"
+                                data-tab="tab1">Сотрудничество</button>
+                            <button class="btn btn-main__catalog-cards dealers__btn-cards" data-tab="tab2">Для Юр
+                                лиц</button>
+                            <button class="btn btn-main__catalog-cards dealers__btn-cards" data-tab="tab3">Для
+                                ИП</button>
+                            <button class="btn btn-main__catalog-cards dealers__btn-cards" data-tab="tab4">Для
+                                физлица</button>
+                        </div>
+                        <button type="button" class="btn btnGrey">Стать дилером</button>
+                    </div>
+                    <div>
+                        <div class="section-dealers__block active" id="tab1">
+                            <div class="section-dealers__block-texts dFlex">
+                                <p>Производственно-складская компания ПОСТАВКА №1 приглашает к сотрудничеству компании
+                                    занимающиеся продажей и установкой
+                                    натяжных потолков, металлопластиковых окон и комплектующих к ним, а так же
+                                    строительные
+                                    компании, дизайнеров, прорабов и
+                                    физических лиц работающих в этом направлении.
+                                </p>
+                                <p> Компания ПОСТАВКА №1 напрямую заинтересована в увеличении объема продаж и расширении
+                                    бизнеса наших партнеров, потому мы
+                                    оказываем максимальную поддержку и предлагаем эксклюзивные условия сотрудничества.
+                                </p>
+                            </div>
+                            <div class="section-dealers__block-cards dGrid">
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-dealers__block" id="tab2">
+                            <div class="section-dealers__block-texts dFlex">
+                                <p>Производственно-складская компания ПОСТАВКА №1 приглашает к сотрудничеству компании
+                                    занимающиеся продажей и установкой
+                                    натяжных потолков, металлопластиковых окон и комплектующих к ним, а так же
+                                    строительные
+                                    компании, дизайнеров, прорабов и
+                                    физических лиц работающих в этом направлении.
+                                </p>
+                                <p> Компания ПОСТАВКА №1 напрямую заинтересована в увеличении объема продаж и расширении
+                                    бизнеса наших партнеров, потому мы
+                                    оказываем максимальную поддержку и предлагаем эксклюзивные условия сотрудничества.
+                                </p>
+                            </div>
+                            <div class="section-dealers__block-cards dGrid">
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-dealers__block" id="tab3">
+                            <div class="section-dealers__block-texts dFlex">
+                                <p>Производственно-складская компания ПОСТАВКА №1 приглашает к сотрудничеству компании
+                                    занимающиеся продажей и установкой
+                                    натяжных потолков, металлопластиковых окон и комплектующих к ним, а так же
+                                    строительные
+                                    компании, дизайнеров, прорабов и
+                                    физических лиц работающих в этом направлении.
+                                </p>
+                                <p> Компания ПОСТАВКА №1 напрямую заинтересована в увеличении объема продаж и расширении
+                                    бизнеса наших партнеров, потому мы
+                                    оказываем максимальную поддержку и предлагаем эксклюзивные условия сотрудничества.
+                                </p>
+                            </div>
+                            <div class="section-dealers__block-cards dGrid">
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-dealers__block" id="tab4">
+                            <div class="section-dealers__block-texts dFlex">
+                                <p>Производственно-складская компания ПОСТАВКА №1 приглашает к сотрудничеству компании
+                                    занимающиеся продажей и установкой
+                                    натяжных потолков, металлопластиковых окон и комплектующих к ним, а так же
+                                    строительные
+                                    компании, дизайнеров, прорабов и
+                                    физических лиц работающих в этом направлении.
+                                </p>
+                                <p> Компания ПОСТАВКА №1 напрямую заинтересована в увеличении объема продаж и расширении
+                                    бизнеса наших партнеров, потому мы
+                                    оказываем максимальную поддержку и предлагаем эксклюзивные условия сотрудничества.
+                                </p>
+                            </div>
+                            <div class="section-dealers__block-cards dGrid">
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                                <div class="section-dealers__block-card dFlex">
+                                    <div class="section-dealers__block-card__ok dFlex">
+                                        <img class="section-dealers__block-card__ok-icon"
+                                            src="./assets/images/icons/ok-icon.svg" alt="Ок">
+                                    </div>
+                                    <p class="section-dealers__block-card__text">Индивидуальный подход к каждому
+                                        партнёру
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+    <section class="form-help dealers__page">
+        <div class="container">
+            <div class="form-help__container">
+                <div class="bg-image__form"></div>
+                <h1>Оставьте заявку и станьте нашим партнером</h1>
+                <form class="form-help__block-box dFlex" action="https://jsonplaceholder.typicode.com/posts"
+                    method="post">
+                    <div class="form-help__block-box__radio">
+                        <p class="form-help__block-box__radio-text">Ваш статус</p>
+                        <div class="form-help__block-box__radio-inputs dFlex">
+                            <div class="form-help__block-box__radio-btn">
+                                <input class="inputRadio" type="radio" value="Физическое лицо" name="radioInput"
+                                    id="radiolInput1">
+                                <label class="form-help__block-box__radio-label" for="radiolInput1">
+                                    Физическое лицо
+                                </label>
+                            </div>
+                            <div class="form-help__block-box__radio-btn">
+                                <input class="inputRadio" type="radio" value="Юридическое лицо" name="radioInput"
+                                    id="radioInput2" checked>
+                                <label class="form-help__block-box__radio-label" for="radioInput2">
+                                    Юридическое лицо
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="form-help__block dFlex">
+                            <label class="form-help__block-label dFlex" for="nameInput">
+                                <p>Ваше имя</p>
+                                <input class="inputPickUp" type="text" value="Александр" placeholder="Введите ваше имя"
+                                    name="nameInput" id="nameInput" required>
+                            </label>
+                            <label class="form-help__block-label dFlex" for="telInput">
+                                <p>Телефон</p>
+                                <input class="inputPickUp" type="tel" value="+79999999999"
+                                    placeholder="Введите ваш телефон" id="telInput" name="telInput"
+                                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}+" required>
+                            </label>
+                            <label class="form-help__block-label dFlex" for="companyInput">
+                                <p>Название компании</p>
+                                <input class="inputPickUp" type="text" value="ООО Ромашка"
+                                    placeholder="Введите название компании" id="companyInput" name="companyInput"
+                                    required>
+                            </label>
+                            <label class="form-help__block-label dFlex" for="innInput">
+                                <p>ИНН</p>
+                                <input class="inputPickUp" type="text" value="00000000000" placeholder="Введите ИНН"
+                                    id="innInput" name="innInput" required>
+                            </label>
+                            <div class="btnPickUp__block dFlex">
+                                <button class="btnPickUp" type="submit">Оставить заявку</button>
+                            </div>
+                        </div>
+                        <p class="form-help__block-box__paragraph">Нажимая на кнопку "Оставить заявку", вы соглашаетесь
+                            с политикой сбора и обработки
+                            персональных данных</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="our-contacts">
+        <div class="container">
+            <div class="best-deals__texts">
+                <h1>Свяжитесь с нами</h1>
+                <p>Наши специалисты подберут оптимальное решение для вас</p>
+            </div>
+            <div class="our-contacts__block">
+                <div class="best-deals__tabs dFlex">
+                    <button class="btn btn__contacts active" data-tab="tabContacts1">Адреса магазинов / складов в
+                        СПб</button>
+                    <button class="btn btn__contacts" data-tab="tabContacts2">Пункты выдачи по РФ</button>
+                </div>
+                <div>
+                    <div class="our-contacts__block-content active" id="tabContacts1">
+                        <div class="our-contacts__block-addresses__container dealers__address-block">
+                            <address class="our-contacts__block-address">
+                                <ul class="dealers__address-lists dFlex">
+                                    <li class="dealers__address-list dFlex">
+                                        <p class="dealers__address-list__paragraph">Адрес</p>
+                                        <p class="dealers__address-list__text">г. Санкт-Петербург,
+                                            ул. Репищева, д.14 литера АД</p>
+                                    </li>
+                                    <li class="dealers__address-list dFlex">
+                                        <p class="dealers__address-list__paragraph">Почта</p>
+                                        <a href="mailto:opt@postavka-1.ru"
+                                            class="dealers__address-list__text">opt@postavka-1.ru</a>
+                                    </li>
+                                    <li class="dealers__address-list dFlex">
+                                        <p class="dealers__address-list__paragraph">Телефон</p>
+                                        <a href="tel:+79119244396" class="dealers__address-list__text">+7 (911)
+                                            924-43-96</a>
+                                    </li>
+                                </ul>
+                                <div class="footer__top-contacts__social dFlex">
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </address>
+                        </div>
+                        <div class="our-contacts__block-addresses__map">
+                            <img src="./assets/images/Rectangle 228.png" alt="Карта">
+                        </div>
+                    </div>
+                    <div class="our-contacts__block-content" id="tabContacts2">
+                        <div class="our-contacts__block-addresses__container dealers__address-block">
+                            <address class="our-contacts__block-address">
+                                <ul class="dealers__address-lists dFlex">
+                                    <li class="dealers__address-list dFlex">
+                                        <p class="dealers__address-list__paragraph">Адрес</p>
+                                        <p class="dealers__address-list__text">г. Санкт-Петербург,
+                                            ул. Репищева, д.14 литера АД</p>
+                                    </li>
+                                    <li class="dealers__address-list dFlex">
+                                        <p class="dealers__address-list__paragraph">Почта</p>
+                                        <a href="mailto:opt@postavka-1.ru"
+                                            class="dealers__address-list__text">opt@postavka-1.ru</a>
+                                    </li>
+                                    <li class="dealers__address-list dFlex">
+                                        <p class="dealers__address-list__paragraph">Телефон</p>
+                                        <a href="tel:+79119244396" class="dealers__address-list__text">+7 (911)
+                                            924-43-96</a>
+                                    </li>
+                                </ul>
+                                <div class="footer__top-contacts__social dFlex">
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </address>
+                        </div>
+                        <div class="our-contacts__block-addresses__map">
+                            <img src="./assets/images/Rectangle 228.png" alt="Карта">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__top dFlex">
+                <div class="footer__top-contacts dFlex">
+                    <div>
+                        <h3 class="footer__subtitle">Контакты</h3>
+                        <div class="footer__top-contacts__box dFlex">
+                            <div class="footer__top-contacts__box-texts dFlex">
+                                <a class="footer__top-contacts__box-texts__link" href="tel:+79119244396">+7 (911)
+                                    924-43-96</a>
+                                <a href="tel:+79119244396">Заказать
+                                    звонок</a>
+                            </div>
+                            <div class="footer__top-contacts__box-texts dFlex">
+                                <a class="footer__top-contacts__box-texts__link"
+                                    href="mailto:opt@postavka-1.ru">opt@postavka-1.ru</a>
+                                <a href="mailto:opt@postavka-1.ru">Написать на почту</a>
+                            </div>
+                            <div class="footer__top-contacts__box-texts dFlex">
+                                <p>г. Санкт-Петербург</p>
+                                <p class="footer__top-contacts__box-street">ул. Репищева, д.14 литера АД</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__top-contacts__social dFlex">
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="footer__top-box">
+                    <div class="footer__top-box__block dFlex">
+                        <div class="footer__top-catalog">
+                            <h3 class="footer__subtitle">Каталог</h3>
+                            <div class="footer__top-catalog__box dFlex">
+                                <ul class="footer__top-catalog__lists dFlex">
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Профили</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Комплектующие</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Рассеиватели, вставки, торцы</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Светильники</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Инструменты</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Освещение</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Крепеж</a>
+                                    </li>
+                                </ul>
+                                <ul class="footer__top-catalog__lists dFlex">
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Карнизы</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Электрика</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Вентиляция и магнитные решетки</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Диски по металлу, сверла</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Люки</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Сопутствующие товары</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer__top-information">
+                            <h3 class="footer__subtitle">Информация</h3>
+                            <div>
+                                <ul class="footer__top-catalog__lists dFlex">
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">О компании</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Цены</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Акции</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Контакты</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Инструменты</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Освещение</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Крепеж</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="footer__top-box__text">Обращаем Ваше внимание на то, что данный интернет-сайт носит
+                        исключительно информационный характер и ни при каких
+                        условиях информационные материалы и цены, размещенные на сайте, не являются публичной офертой,
+                        определяемой положениями
+                        Статей 435 и 437 Гражданского кодекса РФ. Ваш заказ, включая стоимость и наличие товара, будет
+                        подтвержден нашим
+                        менеджером посредством телефонного звонка на номер, указанный Вами при заказе.</p>
+                </div>
+            </div>
+            <div class="footer__bottom dFlex">
+                <a class="header__block-container__box-logo" href="#">
+                    <img class="header__block-container__box-logo__icon" src="./assets/images/icons/logo.svg"
+                        alt="Поставка№1">
+                </a>
+                <div class="footer__bottom-box dFlex">
+                    <div class="footer__bottom-requisites dFlex">
+                        <ul class="footer__bottom-requisites__lists">
+                            <li class="footer__bottom-requisites__list footer__top-box__text">ООО «ПОСТАВКА №1»</li>
+                            <li class="footer__bottom-requisites__list footer__top-box__text">ИНН: 7814569857</li>
+                            <li class="footer__bottom-requisites__list footer__top-box__text">ОГРН: 1137847152827</li>
+                        </ul>
+                        <ul class="footer__bottom-requisites__lists">
+                            <li class="footer__bottom-requisites__list footer__top-box__text">
+                                <a href="#">Политика конфиденциальности</a>
+                            </li>
+                            <li class="footer__bottom-requisites__list footer__top-box__text">
+                                <a href="#"></a>Публичная
+                                оферта</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__bottom-box__partners dFlex">
+                        <a href="#" class="footer__bottom-box__partners-text">Разработка сайта</a>
+                        <a href="#" class="footer__bottom-box__partner">Helmut & Partners</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

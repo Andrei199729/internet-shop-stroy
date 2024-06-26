@@ -1,0 +1,2392 @@
+<!DOCTYPE html>
+<html lang="кг">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/icons/favicon.svg" type="image/svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/fonts/fonts.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Главная</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="header-bg">
+            <div class="container">
+                <div class="header__container dFlex">
+                    <nav class="header__container-nav">
+                        <ul class="header__container-nav__lists dFlex">
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">О компании</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Дилерам</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Акции</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Доставка</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Оплата</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__container-telephone dFlex">
+                        <a class="header__container-telephone__link dFlex" href="tel:+73427767878">
+                            <img class="header__container-telephone__icon" src="./assets/images/icons/call-icon.svg"
+                                alt="Телефон">
+                            +7 (342) 776-78-78
+                        </a>
+                        <a href="tel:+73427767878" class="header__container-telephone__text">Заказать звонок</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__block">
+            <div class="container">
+                <div class="header__block-container dFlex">
+                    <div class="header__block-container__box aIc dFlex">
+                        <a class="header__block-container__box-logo" href="#">
+                            <img class="header__block-container__box-logo__icon" src="./assets/images/icons/logo.svg"
+                                alt="Поставка№1">
+                        </a>
+                        <button class="btn active header__block-btn dFlex" type="button">
+                            <div class="header__block-btn__square dGrid">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            Каталог
+                        </button>
+                        <form class="header__block-form" action="https://jsonplaceholder.typicode.com/posts"
+                            method="post">
+                            <label class="header__block-label" for="search">
+                                <input class="header__block-label__input inputSearch" type="search" name="search"
+                                    id="search" placeholder="Нажмите, чтобы начать поиск..." required>
+                                <button class="btn__form-search" type="submit"></button>
+                            </label>
+                        </form>
+                    </div>
+                    <ul class="header__block-path__page-lists dFlex">
+                        <li class="header__block-path__page-list">
+                            <a class="header__block-path__page-link dFlex" href="#">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1 0.5C0.723858 0.5 0.5 0.723858 0.5 1C0.5 1.27614 0.723858 1.5 1 1.5L1 0.5ZM3.22222 1L3.70729 0.878732C3.65165 0.656149 3.45166 0.5 3.22222 0.5V1ZM15.2222 13.0556C15.4984 13.0556 15.7222 12.8317 15.7222 12.5556C15.7222 12.2794 15.4984 12.0556 15.2222 12.0556V13.0556ZM17 2.77778L17.4851 2.89905C17.5224 2.74968 17.4889 2.59143 17.3941 2.47007C17.2993 2.34871 17.154 2.27778 17 2.27778V2.77778ZM15.2222 9.88889V10.3889C15.4517 10.3889 15.6516 10.2327 15.7073 10.0102L15.2222 9.88889ZM1 1.5H3.22222V0.5H1L1 1.5ZM2.73715 1.12127L3.1816 2.89905L4.15174 2.65651L3.70729 0.878732L2.73715 1.12127ZM3.1816 2.89905L4.95937 10.0102L5.92952 9.76762L4.15174 2.65651L3.1816 2.89905ZM5.44444 9.38889H5V10.3889H5.44444V9.38889ZM5 13.0556H15.2222V12.0556H5V13.0556ZM3.16667 11.2222C3.16667 12.2347 3.98748 13.0556 5 13.0556V12.0556C4.53976 12.0556 4.16667 11.6825 4.16667 11.2222H3.16667ZM5 9.38889C3.98748 9.38889 3.16667 10.2097 3.16667 11.2222H4.16667C4.16667 10.762 4.53976 10.3889 5 10.3889V9.38889ZM3.66667 3.27778H17V2.27778H3.66667V3.27778ZM16.5149 2.65651L14.7372 9.76762L15.7073 10.0102L17.4851 2.89905L16.5149 2.65651ZM15.2222 9.38889H5.44444V10.3889H15.2222V9.38889ZM14.7222 16.1111C14.7222 16.3259 14.5481 16.5 14.3333 16.5V17.5C15.1004 17.5 15.7222 16.8782 15.7222 16.1111H14.7222ZM14.3333 16.5C14.1186 16.5 13.9444 16.3259 13.9444 16.1111H12.9444C12.9444 16.8782 13.5663 17.5 14.3333 17.5V16.5ZM13.9444 16.1111C13.9444 15.8963 14.1186 15.7222 14.3333 15.7222V14.7222C13.5663 14.7222 12.9444 15.344 12.9444 16.1111H13.9444ZM14.3333 15.7222C14.5481 15.7222 14.7222 15.8963 14.7222 16.1111H15.7222C15.7222 15.344 15.1004 14.7222 14.3333 14.7222V15.7222ZM5.83333 16.1111C5.83333 16.3259 5.65922 16.5 5.44444 16.5V17.5C6.21151 17.5 6.83333 16.8782 6.83333 16.1111H5.83333ZM5.44444 16.5C5.22967 16.5 5.05556 16.3259 5.05556 16.1111H4.05556C4.05556 16.8782 4.67738 17.5 5.44444 17.5V16.5ZM5.05556 16.1111C5.05556 15.8963 5.22967 15.7222 5.44444 15.7222V14.7222C4.67738 14.7222 4.05556 15.344 4.05556 16.1111H5.05556ZM5.44444 15.7222C5.65922 15.7222 5.83333 15.8963 5.83333 16.1111H6.83333C6.83333 15.344 6.21151 14.7222 5.44444 14.7222V15.7222Z"
+                                        fill="#3F3F3F" />
+                                </svg>
+                                Корзина
+                            </a>
+                        </li>
+                        <li class="header__block-path__page-list">
+                            <a class="header__block-path__page-link dFlex" href="#">
+                                <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                        stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                                Избранное
+                            </a>
+                        </li>
+                        <li class="header__block-path__page-list">
+                            <a class="header__block-path__page-link dFlex" href="#">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                        fill="white" stroke="#4F4F4F" />
+                                    <path
+                                        d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                        fill="white" stroke="#4F4F4F" />
+                                </svg>
+                                Сравнение
+                            </a>
+                        </li>
+                        <li class="header__block-path__page-list">
+                            <a class="header__block-path__page-link dFlex" href="#">
+                                <svg width="15" height="17" viewBox="0 0 15 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4.28571 4.26471C4.28571 2.45528 5.73113 1 7.5 1C9.26887 1 10.7143 2.45528 10.7143 4.26471C10.7143 6.07413 9.26887 7.52941 7.5 7.52941C5.73113 7.52941 4.28571 6.07413 4.28571 4.26471ZM7.5 0C5.16618 0 3.28571 1.91575 3.28571 4.26471C3.28571 6.61366 5.16618 8.52941 7.5 8.52941C9.83382 8.52941 11.7143 6.61366 11.7143 4.26471C11.7143 1.91575 9.83382 0 7.5 0ZM1.5 14.9314C1.5 13.4564 2.64539 12.2941 4.01786 12.2941H10.9821C12.3546 12.2941 13.5 13.4564 13.5 14.9314V16H1.5V14.9314ZM4.01786 11.2941C2.05689 11.2941 0.5 12.941 0.5 14.9314V16.5C0.5 16.7761 0.723858 17 1 17H14C14.2761 17 14.5 16.7761 14.5 16.5V14.9314C14.5 12.941 12.9431 11.2941 10.9821 11.2941H4.01786Z"
+                                        fill="#3F3F3F" />
+                                </svg>
+                                Войти
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-bg__slider">
+            <div class="header-bg__slider-container dFlex">
+                <div class="container">
+                    <div class="header-bg__slider-container__texts">
+                        <h1>Интернет-магазин комплектующих для натяжных и гипсокартонных потолков</h1>
+                        <p>Ассортимент компании постоянно увеличивается, расширяя географию работы на рынке натяжных
+                            потолков</p>
+                        <button class="btn header__block-btn header-bg__slider-btn dFlex" type="button">
+                            <div class="header__block-btn__square dGrid">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            Перейти в каталог
+                        </button>
+                    </div>
+
+                </div>
+                <div class="headerWrapperSlider">
+                    <div class="swiper-container headerWrapperSlider__container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide headerWrapperSlider__slide dFlex">
+                                <img class="headerWrapperSlider__slide-image" src="./assets/images/image-lenta.png"
+                                    alt="Максировочная лента в подарок">
+                                <div class="headerWrapperSlider__slide-texts">
+                                    <h3 class="headerWrapperSlider__slide-title">Максировочная лента в подарок</h3>
+                                    <p class="headerWrapperSlider__slide-text">При заказе вентиляционных решеток ПВХ
+                                        от
+                                        2 000 руб.
+                                    </p>
+                                    <a class="headerWrapperSlider__slide-link" href="#">Смотреть товары</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide headerWrapperSlider__slide dFlex">
+                                <img class="headerWrapperSlider__slide-image" src="./assets/images/image-lenta.png"
+                                    alt="Максировочная лента в подарок">
+                                <div class="headerWrapperSlider__slide-texts">
+                                    <h3 class="headerWrapperSlider__slide-title">Максировочная лента в подарок</h3>
+                                    <p class="headerWrapperSlider__slide-text">При заказе вентиляционных решеток ПВХ
+                                        от
+                                        2 000 руб.
+                                    </p>
+                                    <a class="headerWrapperSlider__slide-link" href="#">Смотреть товары</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide headerWrapperSlider__slide dFlex">
+                                <img class="headerWrapperSlider__slide-image" src="./assets/images/image-lenta.png"
+                                    alt="Максировочная лента в подарок">
+                                <div class="headerWrapperSlider__slide-texts">
+                                    <h3 class="headerWrapperSlider__slide-title">Максировочная лента в подарок</h3>
+                                    <p class="headerWrapperSlider__slide-text">При заказе вентиляционных решеток ПВХ
+                                        от
+                                        2 000 руб.
+                                    </p>
+                                    <a class="headerWrapperSlider__slide-link" href="#">Смотреть товары</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="headerWrapperSlider__btns dFlex">
+                        <button type="button"
+                            class="btnSquareArrow headerWrapperSlider__btn headerWrapperSlider__btn-prev"></button>
+                        <button type="button"
+                            class="btnSquareArrow headerWrapperSlider__btn headerWrapperSlider__btn-next"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main" id="main">
+        <section class="catalog">
+            <div class="container">
+                <div class="catalog__block">
+                    <h2 class="headerWrapperSlider__slide-title catalog__block-title">КАТАЛОГ</h2>
+                    <div class="catalog__block-boxes dFlex">
+                        <div class="catalog__block-box dFlex">
+                            <h3 class="catalog__block-box__subtitle">Все для натяжных
+                                потолков</h3>
+                            <a href="#" class="btnSquareArrow"></a>
+                        </div>
+                        <div class="catalog__block-box dFlex">
+                            <h3 class="catalog__block-box__subtitle">Все для гипсокартонных
+                                потолков</h3>
+                            <a href="#" class="btnSquareArrow"></a>
+                        </div>
+                        <div class="catalog__block-box dFlex">
+                            <h3 class="catalog__block-box__subtitle">Освещение</h3>
+                            <a href="#" class="btnSquareArrow"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog__block-select">
+                    <div class="catalog__block-select__view dFlex">
+                        <p>Все для натяжных потолков</p>
+                        <img class="catalog__block-select__icon" src="./assets/images/icons/arrow.svg" alt="Стрелка">
+                    </div>
+                    <div class="catalog__block-select__container dGrid">
+                        <div class="catalog__block-select__box dFlex">
+                            <div>
+                                <p class="catalog__block-select__box-text">Крепежи</p>
+                                <ul class="catalog__block-select__box-lists dFlex">
+                                    <li class="catalog__block-select__box-list">Уголки</li>
+                                    <li class="catalog__block-select__box-list">Соединители</li>
+                                    <li class="catalog__block-select__box-list">Метизы</li>
+                                    <li class="catalog__block-select__box-list">Гвозди для монтажного пистолета</li>
+                                    <li class="catalog__block-select__box-list">Консоли</li>
+                                    <li class="catalog__block-select__box-list">Перфолента</li>
+                                    <li class="catalog__block-select__box-list">Бандажная лента</li>
+                                    <li class="catalog__block-select__box-list">Подвесы</li>
+                                    <li class="catalog__block-select__box-list">Биты</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btnSquareArrow"></a>
+                        </div>
+                        <div class="catalog__block-select__box dFlex">
+                            <div>
+                                <p class="catalog__block-select__box-text">Комплектующие</p>
+                                <ul class="catalog__block-select__box-lists dFlex">
+                                    <li class="catalog__block-select__box-list">Лента маскировочная</li>
+                                    <li class="catalog__block-select__box-list">Платфомы</li>
+                                    <li class="catalog__block-select__box-list">Термоквадраты</li>
+                                    <li class="catalog__block-select__box-list">Термокольца</li>
+                                    <li class="catalog__block-select__box-list">Ревизионные люки пвх</li>
+                                    <li class="catalog__block-select__box-list">Площадки монтажные</li>
+                                    <li class="catalog__block-select__box-list">Пластик</li>
+                                    <li class="catalog__block-select__box-list">Обвод труб</li>
+                                    <li class="catalog__block-select__box-list">Вентиляционные решетки пвх</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btnSquareArrow"></a>
+                        </div>
+                        <div class="catalog__block-select__box dFlex">
+                            <div>
+                                <p class="catalog__block-select__box-text">Профили</p>
+                                <ul class="catalog__block-select__box-lists dFlex">
+                                    <li class="catalog__block-select__box-list">Теневые профили для натяжных потолков
+                                    </li>
+                                    <li class="catalog__block-select__box-list">Парящие профили</li>
+                                    <li class="catalog__block-select__box-list">Контурные профили</li>
+                                    <li class="catalog__block-select__box-list">Багет пвх</li>
+                                    <li class="catalog__block-select__box-list">Багет алюминиевый</li>
+                                    <li class="catalog__block-select__box-list">Конструкционные профили</li>
+                                    <li class="catalog__block-select__box-list">Бесщелевой профиль</li>
+                                    <li class="catalog__block-select__box-list">Световые линии</li>
+                                    <li class="catalog__block-select__box-list">Профили-адаптеры для треков</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btnSquareArrow"></a>
+                        </div>
+                        <div class="catalog__block-select__box dFlex">
+                            <div>
+                                <p class="catalog__block-select__box-text">Электрика</p>
+                                <ul class="catalog__block-select__box-lists dFlex">
+                                    <li class="catalog__block-select__box-list">Кабель</li>
+                                    <li class="catalog__block-select__box-list">Зажимы</li>
+                                    <li class="catalog__block-select__box-list">Хомуты</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btnSquareArrow"></a>
+                        </div>
+                        <div class="catalog__block-select__box dFlex">
+                            <div>
+                                <p class="catalog__block-select__box-text">Карнизы</p>
+                                <ul class="catalog__block-select__box-lists dFlex">
+                                    <li class="catalog__block-select__box-list">Карниз ПВХ</li>
+                                    <li class="catalog__block-select__box-list">Карниз алюминиевый</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btnSquareArrow"></a>
+                        </div>
+                        <div class="catalog__block-select__box dFlex">
+                            <div>
+                                <p class="catalog__block-select__box-text">Светотехника</p>
+                                <ul class="catalog__block-select__box-lists dFlex">
+                                    <li class="catalog__block-select__box-list">Светодиодная лента</li>
+                                    <li class="catalog__block-select__box-list">Блоки питания</li>
+                                    <li class="catalog__block-select__box-list">Управление</li>
+                                    <li class="catalog__block-select__box-list">Припой</li>
+                                    <li class="catalog__block-select__box-list">Площадка для пайки</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btnSquareArrow"></a>
+                        </div>
+                        <div class="catalog__block-select__box dFlex">
+                            <div>
+                                <p class="catalog__block-select__box-text">Рассеиватели, вставки, торцы</p>
+                                <ul class="catalog__block-select__box-lists dFlex">
+                                    <li class="catalog__block-select__box-list">Рассеиватель для световых линий</li>
+                                    <li class="catalog__block-select__box-list">Рассеиватель для парящего профиля</li>
+                                    <li class="catalog__block-select__box-list">Заглушки торцевые</li>
+                                    <li class="catalog__block-select__box-list">Консоли</li>
+                                    <li class="catalog__block-select__box-list">Вставка алюминиевая</li>
+                                    <li class="catalog__block-select__box-list">Рассеиватель для карнизов</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btnSquareArrow"></a>
+                        </div>
+                        <div class="catalog__block-select__box dFlex">
+                            <div>
+                                <p class="catalog__block-select__box-text">Освещение</p>
+                                <ul class="catalog__block-select__box-lists dFlex">
+                                    <li class="catalog__block-select__box-list">Встраиваемые светильники</li>
+                                    <li class="catalog__block-select__box-list">Накладные светильники</li>
+                                    <li class="catalog__block-select__box-list">Светильники для однофазных треков</li>
+                                    <li class="catalog__block-select__box-list">Светильники для магнитных треков</li>
+                                    <li class="catalog__block-select__box-list">Подвесные светильники</li>
+                                    <li class="catalog__block-select__box-list">Магнитные треки 220w</li>
+                                    <li class="catalog__block-select__box-list">Однофазные треки</li>
+                                    <li class="catalog__block-select__box-list">Низковольтные магнитные треки</li>
+                                    <li class="catalog__block-select__box-list">Лампы</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btnSquareArrow"></a>
+                        </div>
+                        <div class="catalog__block-select__box dFlex">
+                            <div>
+                                <p class="catalog__block-select__box-text">Инструменты</p>
+                                <ul class="catalog__block-select__box-lists dFlex">
+                                    <li class="catalog__block-select__box-list">Шпатели, лопатки</li>
+                                    <li class="catalog__block-select__box-list">Дыроколы</li>
+                                    <li class="catalog__block-select__box-list">Кольцестав</li>
+                                    <li class="catalog__block-select__box-list">Натяжитель третья рука</li>
+                                    <li class="catalog__block-select__box-list">Ножницы</li>
+                                    <li class="catalog__block-select__box-list">Ножи строительные</li>
+                                    <li class="catalog__block-select__box-list">Шаблоны для распиливания</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btnSquareArrow"></a>
+                        </div>
+                        <div class="catalog__block-select__box dFlex">
+                            <div class="bg-image"></div>
+                            <div class="bg-round"></div>
+                            <div>
+                                <p class="catalog__block-select__box-text">Вентиляция и магнитные решетки</p>
+                                <ul class="catalog__block-select__box-lists dFlex">
+                                    <li class="catalog__block-select__box-list">Вентрешетки</li>
+                                    <li class="catalog__block-select__box-list">Магнитные решетки</li>
+                                    <li class="catalog__block-select__box-list">Теневые диффузоры</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btnSquareArrow"></a>
+                        </div>
+                        <div class="catalog__block-select__box dFlex">
+                            <div>
+                                <p class="catalog__block-select__box-text">Диски по металлу, сверла</p>
+                                <ul class="catalog__block-select__box-lists dFlex">
+                                    <li class="catalog__block-select__box-list">Коронки по металлу</li>
+                                    <li class="catalog__block-select__box-list">Диски</li>
+                                    <li class="catalog__block-select__box-list">Сверла</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btnSquareArrow"></a>
+                        </div>
+                        <div class="catalog__block-select__box dFlex">
+                            <div>
+                                <p class="catalog__block-select__box-text">Люки</p>
+                                <ul class="catalog__block-select__box-lists dFlex">
+                                    <li class="catalog__block-select__box-list">Люки нажимные</li>
+                                    <li class="catalog__block-select__box-list">Люки ревизионные</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btnSquareArrow"></a>
+                        </div>
+                        <div class="catalog__block-select__box dFlex">
+                            <div class="bg-image"></div>
+                            <div class="bg-round"></div>
+                            <div>
+                                <p class="catalog__block-select__box-text">Сопутствующий товар</p>
+                                <ul class="catalog__block-select__box-lists dGrid">
+                                    <li class="catalog__block-select__box-list">Клей</li>
+                                    <li class="catalog__block-select__box-list">Батарейки</li>
+                                    <li class="catalog__block-select__box-list">Скотч</li>
+                                    <li class="catalog__block-select__box-list">Лезвия для ножа</li>
+                                    <li class="catalog__block-select__box-list">Гофракартон</li>
+                                    <li class="catalog__block-select__box-list">Моющее средство для потолков</li>
+                                    <li class="catalog__block-select__box-list">Перчатки</li>
+                                    <li class="catalog__block-select__box-list">Паста для стыков</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btnSquareArrow"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="best-deals">
+            <div class="container">
+                <div class="best-deals__texts">
+                    <h1>Лучшие предложения</h1>
+                    <p>Покупайте популярные товары разных категорий по выгодным ценам!</p>
+                </div>
+                <div class="best-deals__block">
+                    <div class="best-deals__tabs dFlex">
+                        <button class="btn btn__best-deals active" data-tab="tab1">Все для натяжных потолков</button>
+                        <button class="btn btn__best-deals" data-tab="tab2">Все для гипсокартонных потолков</button>
+                        <button class="btn btn__best-deals" data-tab="tab3">Освещение</button>
+                    </div>
+                    <div class="best-deals__contents">
+                        <div class="best-deals__contents-box best-deals__page active" id="tab1">
+                            <div class="product__content purple-blue dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-1.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-1.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-1.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" id="minus"
+                                                class="product__btn product__btn-remove dFlex" disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"
+                                                id="plus"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content pastel-blue dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide "
+                                                src="./assets/images/profiles-2.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-2.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-2.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content olive-yellow dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-3.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-3.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-3.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content swamp dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-4.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-4.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-4.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content light-brown dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-6.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-6.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-6.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="best-deals__contents-box best-deals__page" id="tab2">
+                            <div class="product__content purple-blue dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-1.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-1.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-1.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" id="minus"
+                                                class="product__btn product__btn-remove dFlex" disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"
+                                                id="plus"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content pastel-blue dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-2.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-2.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-2.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content olive-yellow dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-3.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-3.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-3.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content swamp dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-4.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-4.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-4.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content light-brown dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-6.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-6.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-6.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="best-deals__contents-box best-deals__page" id="tab3">
+                            <div class="product__content purple-blue dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-1.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-1.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-1.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" id="minus"
+                                                class="product__btn product__btn-remove dFlex" disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"
+                                                id="plus"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content pastel-blue dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-2.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-2.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-2.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content olive-yellow dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-3.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-3.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-3.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content swamp dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-4.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-4.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-4.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content light-brown dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-6.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-6.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-6.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="best-deals__block-btns__pages dFlex">
+                        <div class="best-deals__block-page dFlex active">1</div>
+                        <div class="best-deals__block-page dFlex">2</div>
+                        <div class="best-deals__block-page dFlex">3</div>
+                        <div class="best-deals__block-page dFlex">4</div>
+                        <div class="best-deals__block-page dFlex">5</div>
+                        <div class="best-deals__block-page dFlex">6</div>
+                        <button class="best-deals__block-btn-right" type="submit"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="popular-category">
+            <div class="container">
+                <div class="best-deals__texts">
+                    <h1>Популярные категории</h1>
+                    <p>Покупайте популярные товары разных категорий по выгодным ценам!</p>
+                </div>
+                <div class="popular-category__block dFlex">
+                    <a href="#" class="popular-category__block-link dFlex">
+                        <span class="bg-link"></span>
+                        <h3>Комплектующие</h3>
+                        <p>Перейти в каталог</p>
+                    </a>
+                    <a href="#" class="popular-category__block-link dFlex">
+                        <span class="bg-link"></span>
+                        <h3>Профили</h3>
+                        <p>Перейти в каталог</p>
+                    </a>
+                    <a href="#" class="popular-category__block-link dFlex">
+                        <span class="bg-link"></span>
+                        <h3>Светотехника</h3>
+                        <p>Перейти в каталог</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="best-deals new-items">
+            <div class="container">
+                <div class="best-deals__texts">
+                    <h1>Новинки</h1>
+                    <p>Покупайте популярные товары разных категорий по выгодным ценам!</p>
+                </div>
+                <div class="best-deals__block">
+                    <div class="best-deals__contents">
+                        <div class="best-deals__contents-box">
+                            <div class="product__content purple-blue dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-1.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-1.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-1.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" id="minus"
+                                                class="product__btn product__btn-remove dFlex" disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"
+                                                id="plus"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content pastel-blue dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-2.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-2.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-2.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content olive-yellow dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-3.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-3.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-3.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content swamp dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-4.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-4.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-4.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content periwinkle-crayola dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-5.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                            <div class="product__content light-brown dFlex">
+                                <div class="swiperWrapperProduct">
+                                    <div class="swiper swiper-container product__swiper-container">
+                                        <div class="swiper-wrapper product__swiper-wrapper dFlex">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-6.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-6.png" alt="Профиль ПВХ">
+                                            <img class="swiper-slide product__swiper-slide"
+                                                src="./assets/images/profiles-6.png" alt="Профиль ПВХ">
+                                        </div>
+                                        <div class="swiper-pagination swiperWrapperProduct__paginations"></div>
+                                    </div>
+                                    <div class="swiperWrapperProduct__icons dFlex">
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                                    stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="swiperWrapperProduct__icon dFlex">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="#4F4F4F"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                                <path
+                                                    d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                                    fill="white" stroke="#4F4F4F" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__texts">
+                                    <p class="product__text">Профиль ПВХ стеновой 3 вид, сверлёный (2м)</p>
+                                    <p class="product__text-price">29 руб./пог. м</p>
+                                    <div class="product__count-price dFlex">
+                                        <div class="product__counter dFlex">
+                                            <button type="button" class="product__btn product__btn-remove dFlex"
+                                                disabled></button>
+                                            <b class="product__count">10</b>
+                                            <button type="button" class="product__btn product__btn-add dFlex"></button>
+                                        </div>
+                                        <div class="product__count-price__box dFlex">
+                                            <p class="product__count-price__number">29</p>
+                                            <span>&#8381;</span>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btnGrey">Добавить в корзину</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="brends">
+            <div class="container">
+                <div class="best-deals__texts dFlex">
+                    <h1>Бренды</h1>
+                    <div class="border">
+                        <div class="brends__block dGrid">
+                            <div class="brends__block-image__box">
+                                <img class="brends__block-image" src="./assets/images/brend-1.png" alt="Бренды">
+                            </div>
+                            <div class="brends__block-image__box">
+                                <img class="brends__block-image" src="./assets/images/brend-1.png" alt="Бренды">
+                            </div>
+                            <div class="brends__block-image__box">
+                                <img class="brends__block-image" src="./assets/images/brend-1.png" alt="Бренды">
+                            </div>
+                            <div class="brends__block-image__box">
+                                <img class="brends__block-image" src="./assets/images/brend-1.png" alt="Бренды">
+                            </div>
+                            <div class="brends__block-image__box">
+                                <img class="brends__block-image" src="./assets/images/brend-1.png" alt="Бренды">
+                            </div>
+                            <div class="brends__block-image__box">
+                                <img class="brends__block-image" src="./assets/images/brend-1.png" alt="Бренды">
+                            </div>
+                            <div class="brends__block-image__box">
+                                <img class="brends__block-image" src="./assets/images/brend-1.png" alt="Бренды">
+                            </div>
+                            <div class="brends__block-image__box">
+                                <img class="brends__block-image" src="./assets/images/brend-1.png" alt="Бренды">
+                            </div>
+                            <div class="brends__block-image__box">
+                                <img class="brends__block-image" src="./assets/images/brend-1.png" alt="Бренды">
+                            </div>
+                            <div class="brends__block-image__box">
+                                <img class="brends__block-image" src="./assets/images/brend-1.png" alt="Бренды">
+                            </div>
+                            <div class="brends__block-image__box">
+                                <img class="brends__block-image" src="./assets/images/brend-1.png" alt="Бренды">
+                            </div>
+                            <div class="brends__block-image__box">
+                                <img class="brends__block-image" src="./assets/images/brend-1.png" alt="Бренды">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="our-contacts">
+            <div class="container">
+                <div class="best-deals__texts">
+                    <h1>Наши контакты</h1>
+                </div>
+                <div class="our-contacts__block">
+                    <div class="best-deals__tabs dFlex">
+                        <button class="btn btn__contacts active" data-tab="tabContacts1">Адреса магазинов / складов в
+                            СПб</button>
+                        <button class="btn btn__contacts" data-tab="tabContacts2">Пункты выдачи по РФ</button>
+                    </div>
+                    <div>
+                        <div class="our-contacts__block-content active" id="tabContacts1">
+                            <div class="our-contacts__block-addresses__container">
+                                <div class="scrollbar__block our-contacts__block-addresses">
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                </div>
+                            </div>
+                            <div class="our-contacts__block-addresses__map">
+                                <img src="./assets/images/Rectangle 228.png" alt="Карта">
+                            </div>
+                        </div>
+                        <div class="our-contacts__block-content" id="tabContacts2">
+                            <div class="our-contacts__block-addresses__container">
+                                <div class="scrollbar__block our-contacts__block-addresses">
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                    <address class="our-contacts__block-address">
+                                        <p class="our-contacts__block-address__text">ул. Лиговский Проспект, 28</p>
+                                        <div class="our-contacts__block-address__box dFlex">
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                            <a class="our-contacts__block-address__box-tel" href="tel:+79999999999">
+                                                +7 (999) 999-99-99
+                                            </a>
+                                        </div>
+                                    </address>
+                                </div>
+                            </div>
+                            <div class="our-contacts__block-addresses__map">
+                                <img src="./assets/images/Rectangle 228.png" alt="Карта">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="form-help">
+            <div class="container">
+                <div class="form-help__container">
+                    <div class="bg-image__form"></div>
+                    <h1>Не нашли нужный товар?<br /> Мы поможем с поиском</h1>
+                    <form class="form-help__block dFlex" action="https://jsonplaceholder.typicode.com/posts"
+                        method="post">
+                        <label class="form-help__block-label dFlex" for="nameInput">
+                            <p>Ваше имя</p>
+                            <input class="inputPickUp" type="text" value="Александр" placeholder="Введите ваше имя"
+                                name="nameInput" id="nameInput" required>
+                        </label>
+                        <label class="form-help__block-label dFlex" for="telInput">
+                            <p>Телефон</p>
+                            <input class="inputPickUp" type="tel" value="+79999999999" placeholder="Введите ваш телефон"
+                                id="telInput" name="telInput" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}+" required>
+                        </label>
+                        <label class="form-help__block-label dFlex" for="productInput">
+                            <p>Название товара</p>
+                            <input class="inputPickUp" type="text" value="Что вы ищете?"
+                                placeholder="Введите название товара" id="productInput" name="productInput" required>
+                        </label>
+                        <div class="btnPickUp__block dFlex">
+                            <button class="btnPickUp" type="submit">Подобрать</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__top dFlex">
+                <div class="footer__top-contacts dFlex">
+                    <div>
+                        <h3 class="footer__subtitle">Контакты</h3>
+                        <div class="footer__top-contacts__box dFlex">
+                            <div class="footer__top-contacts__box-texts dFlex">
+                                <a class="footer__top-contacts__box-texts__link" href="tel:+79119244396">+7 (911)
+                                    924-43-96</a>
+                                <a href="tel:+79119244396">Заказать
+                                    звонок</a>
+                            </div>
+                            <div class="footer__top-contacts__box-texts dFlex">
+                                <a class="footer__top-contacts__box-texts__link"
+                                    href="mailto:opt@postavka-1.ru">opt@postavka-1.ru</a>
+                                <a href="mailto:opt@postavka-1.ru">Написать на почту</a>
+                            </div>
+                            <div class="footer__top-contacts__box-texts dFlex">
+                                <p>г. Санкт-Петербург</p>
+                                <p class="footer__top-contacts__box-street">ул. Репищева, д.14 литера АД</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__top-contacts__social dFlex">
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="footer__top-box">
+                    <div class="footer__top-box__block dFlex">
+                        <div class="footer__top-catalog">
+                            <h3 class="footer__subtitle">Каталог</h3>
+                            <div class="footer__top-catalog__box dFlex">
+                                <ul class="footer__top-catalog__lists dFlex">
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Профили</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Комплектующие</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Рассеиватели, вставки, торцы</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Светильники</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Инструменты</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Освещение</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Крепеж</a>
+                                    </li>
+                                </ul>
+                                <ul class="footer__top-catalog__lists dFlex">
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Карнизы</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Электрика</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Вентиляция и магнитные решетки</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Диски по металлу, сверла</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Люки</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Сопутствующие товары</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer__top-information">
+                            <h3 class="footer__subtitle">Информация</h3>
+                            <div>
+                                <ul class="footer__top-catalog__lists dFlex">
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">О компании</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Цены</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Акции</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Контакты</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Инструменты</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Освещение</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Крепеж</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="footer__top-box__text">Обращаем Ваше внимание на то, что данный интернет-сайт носит
+                        исключительно информационный характер и ни при каких
+                        условиях информационные материалы и цены, размещенные на сайте, не являются публичной офертой,
+                        определяемой положениями
+                        Статей 435 и 437 Гражданского кодекса РФ. Ваш заказ, включая стоимость и наличие товара, будет
+                        подтвержден нашим
+                        менеджером посредством телефонного звонка на номер, указанный Вами при заказе.</p>
+                </div>
+            </div>
+            <div class="footer__bottom dFlex">
+                <a class="header__block-container__box-logo" href="#">
+                    <img class="header__block-container__box-logo__icon" src="./assets/images/icons/logo.svg"
+                        alt="Поставка№1">
+                </a>
+                <div class="footer__bottom-box dFlex">
+                    <div class="footer__bottom-requisites dFlex">
+                        <ul class="footer__bottom-requisites__lists">
+                            <li class="footer__bottom-requisites__list footer__top-box__text">ООО «ПОСТАВКА №1»</li>
+                            <li class="footer__bottom-requisites__list footer__top-box__text">ИНН: 7814569857</li>
+                            <li class="footer__bottom-requisites__list footer__top-box__text">ОГРН: 1137847152827</li>
+                        </ul>
+                        <ul class="footer__bottom-requisites__lists">
+                            <li class="footer__bottom-requisites__list footer__top-box__text">
+                                <a href="#">Политика конфиденциальности</a>
+                            </li>
+                            <li class="footer__bottom-requisites__list footer__top-box__text">
+                                <a href="#"></a>Публичная
+                                оферта</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__bottom-box__partners dFlex">
+                        <a href="#" class="footer__bottom-box__partners-text">Разработка сайта</a>
+                        <a href="#" class="footer__bottom-box__partner">Helmut & Partners</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

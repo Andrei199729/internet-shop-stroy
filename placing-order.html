@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="кг">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/icons/favicon.svg" type="image/svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/fonts/fonts.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Оформление заказа</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="header-bg">
+            <div class="container">
+                <div class="header__container dFlex">
+                    <nav class="header__container-nav">
+                        <ul class="header__container-nav__lists dFlex">
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">О компании</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Дилерам</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Акции</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Доставка</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Оплата</a>
+                            </li>
+                            <li class="header__container-nav__list">
+                                <a class="header__container-nav__link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__container-telephone dFlex">
+                        <a class="header__container-telephone__link dFlex" href="tel:+73427767878">
+                            <img class="header__container-telephone__icon" src="./assets/images/icons/call-icon.svg"
+                                alt="Телефон">
+                            +7 (342) 776-78-78
+                        </a>
+                        <a href="tel:+73427767878" class="header__container-telephone__text">Заказать звонок</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__block">
+                <div class="header__block-container dFlex">
+                    <div class="header__block-container__box aIc dFlex">
+                        <a class="header__block-container__box-logo" href="#">
+                            <img class="header__block-container__box-logo__icon" src="./assets/images/icons/logo.svg"
+                                alt="Поставка№1">
+                        </a>
+                        <button class="btn active header__block-btn dFlex" type="button">
+                            <div class="header__block-btn__square dGrid">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            Каталог
+                        </button>
+                        <form class="header__block-form" action="https://jsonplaceholder.typicode.com/posts"
+                            method="post">
+                            <label class="header__block-label" for="search">
+                                <input class="header__block-label__input inputSearch" type="search" name="search"
+                                    id="search" placeholder="Нажмите, чтобы начать поиск..." required>
+                                <button class="btn__form-search" type="submit"></button>
+                            </label>
+                        </form>
+                    </div>
+                    <ul class="header__block-path__page-lists dFlex">
+                        <li class="header__block-path__page-list">
+                            <a class="header__block-path__page-link dFlex" href="#">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1 0.5C0.723858 0.5 0.5 0.723858 0.5 1C0.5 1.27614 0.723858 1.5 1 1.5L1 0.5ZM3.22222 1L3.70729 0.878732C3.65165 0.656149 3.45166 0.5 3.22222 0.5V1ZM15.2222 13.0556C15.4984 13.0556 15.7222 12.8317 15.7222 12.5556C15.7222 12.2794 15.4984 12.0556 15.2222 12.0556V13.0556ZM17 2.77778L17.4851 2.89905C17.5224 2.74968 17.4889 2.59143 17.3941 2.47007C17.2993 2.34871 17.154 2.27778 17 2.27778V2.77778ZM15.2222 9.88889V10.3889C15.4517 10.3889 15.6516 10.2327 15.7073 10.0102L15.2222 9.88889ZM1 1.5H3.22222V0.5H1L1 1.5ZM2.73715 1.12127L3.1816 2.89905L4.15174 2.65651L3.70729 0.878732L2.73715 1.12127ZM3.1816 2.89905L4.95937 10.0102L5.92952 9.76762L4.15174 2.65651L3.1816 2.89905ZM5.44444 9.38889H5V10.3889H5.44444V9.38889ZM5 13.0556H15.2222V12.0556H5V13.0556ZM3.16667 11.2222C3.16667 12.2347 3.98748 13.0556 5 13.0556V12.0556C4.53976 12.0556 4.16667 11.6825 4.16667 11.2222H3.16667ZM5 9.38889C3.98748 9.38889 3.16667 10.2097 3.16667 11.2222H4.16667C4.16667 10.762 4.53976 10.3889 5 10.3889V9.38889ZM3.66667 3.27778H17V2.27778H3.66667V3.27778ZM16.5149 2.65651L14.7372 9.76762L15.7073 10.0102L17.4851 2.89905L16.5149 2.65651ZM15.2222 9.38889H5.44444V10.3889H15.2222V9.38889ZM14.7222 16.1111C14.7222 16.3259 14.5481 16.5 14.3333 16.5V17.5C15.1004 17.5 15.7222 16.8782 15.7222 16.1111H14.7222ZM14.3333 16.5C14.1186 16.5 13.9444 16.3259 13.9444 16.1111H12.9444C12.9444 16.8782 13.5663 17.5 14.3333 17.5V16.5ZM13.9444 16.1111C13.9444 15.8963 14.1186 15.7222 14.3333 15.7222V14.7222C13.5663 14.7222 12.9444 15.344 12.9444 16.1111H13.9444ZM14.3333 15.7222C14.5481 15.7222 14.7222 15.8963 14.7222 16.1111H15.7222C15.7222 15.344 15.1004 14.7222 14.3333 14.7222V15.7222ZM5.83333 16.1111C5.83333 16.3259 5.65922 16.5 5.44444 16.5V17.5C6.21151 17.5 6.83333 16.8782 6.83333 16.1111H5.83333ZM5.44444 16.5C5.22967 16.5 5.05556 16.3259 5.05556 16.1111H4.05556C4.05556 16.8782 4.67738 17.5 5.44444 17.5V16.5ZM5.05556 16.1111C5.05556 15.8963 5.22967 15.7222 5.44444 15.7222V14.7222C4.67738 14.7222 4.05556 15.344 4.05556 16.1111H5.05556ZM5.44444 15.7222C5.65922 15.7222 5.83333 15.8963 5.83333 16.1111H6.83333C6.83333 15.344 6.21151 14.7222 5.44444 14.7222V15.7222Z"
+                                        fill="#3F3F3F" />
+                                </svg>
+                                Корзина
+                            </a>
+                        </li>
+                        <li class="header__block-path__page-list">
+                            <a class="header__block-path__page-link dFlex" href="#">
+                                <svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M17 4.9375C17 10.4013 9.00033 15 9.00033 15C9.00033 15 1 10.3333 1 4.94857C1 2.75 2.77778 1 5 1C7.22222 1 9 3.625 9 3.625C9 3.625 10.7778 1 13 1C15.2222 1 17 2.75 17 4.9375Z"
+                                        stroke="#4F4F4F" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                                Избранное
+                            </a>
+                        </li>
+                        <li class="header__block-path__page-list">
+                            <a class="header__block-path__page-link dFlex" href="#">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5.66667 10.3333C8.244 10.3333 10.3333 8.244 10.3333 5.66667C10.3333 3.08934 8.244 1 5.66667 1C3.08934 1 1 3.08934 1 5.66667C1 8.244 3.08934 10.3333 5.66667 10.3333Z"
+                                        fill="white" stroke="#4F4F4F" />
+                                    <path
+                                        d="M10.3333 15.0001C12.9106 15.0001 15 12.9107 15 10.3334C15 7.75609 12.9106 5.66675 10.3333 5.66675C7.75596 5.66675 5.66663 7.75609 5.66663 10.3334C5.66663 12.9107 7.75596 15.0001 10.3333 15.0001Z"
+                                        fill="white" stroke="#4F4F4F" />
+                                </svg>
+                                Сравнение
+                            </a>
+                        </li>
+                        <li class="header__block-path__page-list">
+                            <a class="header__block-path__page-link dFlex" href="#">
+                                <svg width="15" height="17" viewBox="0 0 15 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4.28571 4.26471C4.28571 2.45528 5.73113 1 7.5 1C9.26887 1 10.7143 2.45528 10.7143 4.26471C10.7143 6.07413 9.26887 7.52941 7.5 7.52941C5.73113 7.52941 4.28571 6.07413 4.28571 4.26471ZM7.5 0C5.16618 0 3.28571 1.91575 3.28571 4.26471C3.28571 6.61366 5.16618 8.52941 7.5 8.52941C9.83382 8.52941 11.7143 6.61366 11.7143 4.26471C11.7143 1.91575 9.83382 0 7.5 0ZM1.5 14.9314C1.5 13.4564 2.64539 12.2941 4.01786 12.2941H10.9821C12.3546 12.2941 13.5 13.4564 13.5 14.9314V16H1.5V14.9314ZM4.01786 11.2941C2.05689 11.2941 0.5 12.941 0.5 14.9314V16.5C0.5 16.7761 0.723858 17 1 17H14C14.2761 17 14.5 16.7761 14.5 16.5V14.9314C14.5 12.941 12.9431 11.2941 10.9821 11.2941H4.01786Z"
+                                        fill="#3F3F3F" />
+                                </svg>
+                                Войти
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="path__block dFlex">
+            <a href="#">Главная</a>
+            <svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 0.75L4.5 4.25L1 0.75" stroke="#626262" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <a href="#">Оформление заказа</a>
+        </div>
+        <div class="best-deals__texts">
+            <h1 class="path__block-title">Оформление заказа</h1>
+        </div>
+        <div class="card-product placing-order__content-box dFlex">
+            <main class="main main__category stock placing-order" id="main">
+                <section class="section-main__catalog-cards">
+                    <div class="best-deals__tabs dFlex">
+                        <button class="btn placing-order__btn active" data-tab="tab1">Физическое
+                            лицо</button>
+                        <button class="btn placing-order__btn" data-tab="tab2">Юридическое
+                            лицо</button>
+                        <button class="btn placing-order__btn" data-tab="tab3">Дилер</button>
+                    </div>
+                    <div class="placing-order__content">
+                        <div class="placing-order__content-checkboxes">
+                            <p class="placing-order__content-checkboxes__text">Способ доставки *</p>
+                            <div class="dFlex placing-order__content-checkboxes__block">
+                                <div class="aside__category-select__block-checkbox__list cart__btn dFlex">
+                                    <input class="aside__category-select__block-checkbox" type="checkbox" name="check1"
+                                        id="check1" data-group="check1">
+                                    <label class="aside__category-select__block-checkbox__label" for="check1">Доставка
+                                        до адреса
+                                    </label>
+                                </div>
+                                <div class="aside__category-select__block-checkbox__list cart__btn dFlex">
+                                    <input class="aside__category-select__block-checkbox" type="checkbox" name="check2"
+                                        id="check2" data-group="check2">
+                                    <label class="aside__category-select__block-checkbox__label" for="check2">Самовывоз
+                                        из нашего магазина
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="placing-order__content-block active" id="tab1">
+                            <form class="placing-order__content-form dGrid"
+                                action="https://jsonplaceholder.typicode.com/posts" method="post">
+                                <label for="paymentMethod">
+                                    <p>Способ оплаты</p>
+                                    <input class="inputForm" type="text" placeholder="Онлайн оплата на сайте"
+                                        name="paymentMethod" id="paymentMethod" required>
+                                </label>
+                                <label for="addressDelivery">
+                                    <p>Введите адрес доставки *</p>
+                                    <input class="inputForm" type="text"
+                                        placeholder="Например г. Тюмень, ул. Харьковская, 76, кв. 304"
+                                        name="addressDelivery" id="addressDelivery" required>
+                                </label>
+                                <label for="yourEmail">
+                                    <p>Ваша электронная почта</p>
+                                    <input class="inputForm" type="mailto:info@1postavka.ru"
+                                        placeholder="Например, info@1postavka.ru" name="yourEmail" id="yourEmail">
+                                </label>
+                                <label for="yourTel">
+                                    <p>Телефон для звонков и СМС *</p>
+                                    <input class="inputForm" type="tel:+79999999999" placeholder="+7 999 999 99 99"
+                                        name="yourTel" id="yourTel">
+                                </label>
+                                <label for="yourName">
+                                    <p>ФИО</p>
+                                    <input class="inputForm" type="text" placeholder="Иванов Иван Иванович"
+                                        name="yourName" id="yourName">
+                                </label>
+                                <label for="postIndex">
+                                    <p>Почтовый индекс</p>
+                                    <input class="inputForm inputForm_postIndex" type="number"
+                                        placeholder="Например, 624095" name="postIndex" id="postIndex" minlength="1"
+                                        maxlength="6">
+                                </label>
+                                <div class="placing-order__content-form__box">
+                                    <label for="comentTextarea">
+                                        <p>Комментарий к заказу</p>
+                                        <textarea class="inputForm inputForm_textarea" name="comentTextarea"
+                                            id="comentTextarea"></textarea>
+                                    </label>
+                                    <button class="btnGrey">Подтвердить заказ</button>
+                                    <p class="placing-order__content-form__box-text">Нажимая на кнопку "Оставить
+                                        заявку", вы
+                                        соглашаетесь с политикой сбора и обработки
+                                        персональных данных</p>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="placing-order__content-block" id="tab2">
+                            <form class="placing-order__content-form dGrid"
+                                action="https://jsonplaceholder.typicode.com/posts" method="post">
+                                <label for="paymentMethod">
+                                    <p>Способ оплаты</p>
+                                    <input class="inputForm" type="text" placeholder="Онлайн оплата на сайте"
+                                        name="paymentMethod" id="paymentMethod" required>
+                                </label>
+                                <label for="addressDelivery">
+                                    <p>Введите адрес доставки *</p>
+                                    <input class="inputForm" type="text"
+                                        placeholder="Например г. Тюмень, ул. Харьковская, 76, кв. 304"
+                                        name="addressDelivery" id="addressDelivery" required>
+                                </label>
+                                <label for="yourEmail">
+                                    <p>Ваша электронная почта</p>
+                                    <input class="inputForm" type="mailto:info@1postavka.ru"
+                                        placeholder="Например, info@1postavka.ru" name="yourEmail" id="yourEmail">
+                                </label>
+                                <label for="yourTel">
+                                    <p>Телефон для звонков и СМС *</p>
+                                    <input class="inputForm" type="tel:+79999999999" placeholder="+7 999 999 99 99"
+                                        name="yourTel" id="yourTel">
+                                </label>
+                                <label for="yourName">
+                                    <p>ФИО</p>
+                                    <input class="inputForm" type="text" placeholder="Иванов Иван Иванович"
+                                        name="yourName" id="yourName">
+                                </label>
+                                <label for="postIndex">
+                                    <p>Почтовый индекс</p>
+                                    <input class="inputForm inputForm_postIndex" type="number"
+                                        placeholder="Например, 624095" name="postIndex" id="postIndex" minlength="1"
+                                        maxlength="6">
+                                </label>
+                                <label for="nameCompany">
+                                    <p>Название компании</p>
+                                    <input class="inputForm" type="text" placeholder="ООО Ромашка" name="nameCompany"
+                                        id="nameCompany">
+                                </label>
+                                <label for="inn">
+                                    <p>ИНН</p>
+                                    <input class="inputForm inputForm_inn" type="number" placeholder="93939393939"
+                                        name="inn" id="inn">
+                                </label>
+                                <button class="dFlex placing-order__content-attach fwr" type="button">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12.0539 7.91849L7.49287 12.7899C7.10604 13.2222 6.5554 13.4721 5.97523 13.4789C5.39511 13.4856 4.8388 13.2485 4.44195 12.8253C3.56528 11.9102 3.58 10.4625 4.4751 9.56553L10.601 3.01508C11.2768 2.2629 12.2385 1.83069 13.2497 1.82481C14.2608 1.81894 15.2275 2.23993 15.9119 2.98422C17.3719 4.59738 17.3615 7.05725 15.8879 8.658L9.39272 15.5971C8.4684 16.5248 7.20309 17.0316 5.8938 16.9985C4.58451 16.9654 3.34644 16.3954 2.47009 15.4222C0.466967 13.163 0.516521 9.74943 2.5844 7.5493L8.71943 1"
+                                            stroke="#EF7E1A" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+
+                                    <p>Прикрепить карточку предприятия</p>
+                                </button>
+                                <div class="placing-order__content-form__box">
+                                    <label for="comentTextarea">
+                                        <p>Комментарий к заказу</p>
+                                        <textarea class="inputForm inputForm_textarea" name="comentTextarea"
+                                            id="comentTextarea"></textarea>
+                                    </label>
+                                    <button class="btnGrey">Подтвердить заказ</button>
+                                    <p class="placing-order__content-form__box-text">Нажимая на кнопку "Оставить
+                                        заявку", вы
+                                        соглашаетесь с политикой сбора и обработки
+                                        персональных данных</p>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="form-help__container placing-order__content-block" id="tab3">
+                            <div class="bg-image__form"></div>
+                            <h1>Оставьте заявку и станьте нашим партнером</h1>
+                            <form class="form-help__block-box dFlex" action="https://jsonplaceholder.typicode.com/posts"
+                                method="post">
+                                <div class="form-help__block-box__radio">
+                                    <p class="form-help__block-box__radio-text">Ваш статус</p>
+                                    <div class="form-help__block-box__radio-inputs dFlex">
+                                        <div class="form-help__block-box__radio-btn">
+                                            <input class="inputRadio" type="radio" value="Физическое лицо"
+                                                name="radioInput" id="radiolInput1">
+                                            <label class="form-help__block-box__radio-label" for="radiolInput1">
+                                                Физическое лицо
+                                            </label>
+                                        </div>
+                                        <div class="form-help__block-box__radio-btn">
+                                            <input class="inputRadio" type="radio" value="Юридическое лицо"
+                                                name="radioInput" id="radioInput2" checked="">
+                                            <label class="form-help__block-box__radio-label" for="radioInput2">
+                                                Юридическое лицо
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="form-help__block dFlex">
+                                        <label class="form-help__block-label dFlex" for="nameInput">
+                                            <p>Ваше имя</p>
+                                            <input class="inputPickUp" type="text" value="Александр"
+                                                placeholder="Введите ваше имя" name="nameInput" id="nameInput"
+                                                required="">
+                                        </label>
+                                        <label class="form-help__block-label dFlex" for="telInput">
+                                            <p>Телефон</p>
+                                            <input class="inputPickUp" type="tel" value="+79999999999"
+                                                placeholder="Введите ваш телефон" id="telInput" name="telInput"
+                                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}+" required="">
+                                        </label>
+                                        <label class="form-help__block-label dFlex" for="companyInput">
+                                            <p>Название компании</p>
+                                            <input class="inputPickUp" type="text" value="ООО Ромашка"
+                                                placeholder="Введите название компании" id="companyInput"
+                                                name="companyInput" required="">
+                                        </label>
+                                        <label class="form-help__block-label dFlex" for="innInput">
+                                            <p>ИНН</p>
+                                            <input class="inputPickUp" type="text" value="00000000000"
+                                                placeholder="Введите ИНН" id="innInput" name="innInput" required="">
+                                        </label>
+                                        <div class="btnPickUp__block dFlex">
+                                            <button class="btnPickUp" type="submit">Оставить заявку</button>
+                                        </div>
+                                    </div>
+                                    <p class="form-help__block-box__paragraph">Нажимая на кнопку "Оставить заявку",
+                                        вы
+                                        соглашаетесь
+                                        с политикой сбора и обработки
+                                        персональных данных</p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <aside class="main__profile-product__price cart__aside placing-order__aside dFlex">
+                <p class="cart__text fwsb">Условия заказа</p>
+                <p class="cart__paragraph">Итого</p>
+                <div class="dFlex cart__block-texts">
+                    <p class="cart__paragraph fwsb"><span>2</span> товара, <span>2</span> кг</p>
+                    <p class="cart__paragraph fwsb"><span>5 000</span> ₽</p>
+                </div>
+                <button type="button" class="btn btnGrey main__profile-btn">Подтвердить заказ</button>
+                <a class="header__block-path__page-link cart__btn-delete dFlex" href="#">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9.5 0C11.1569 0 12.5 1.34315 12.5 3H15.5C15.7761 3 16 3.22386 16 3.5C16 3.77614 15.7761 4 15.5 4L14 3.9995V13C14 14.6569 12.6569 16 11 16H5C3.34315 16 2 14.6569 2 13V4H0.5C0.223858 4 0 3.77614 0 3.5C0 3.22386 0.223858 3 0.5 3H3.5C3.5 1.34315 4.84315 0 6.5 0H9.5ZM13 4H3V13C3 14.0711 3.84198 14.9455 4.90018 14.9976L5 15H11C12.0711 15 12.9455 14.158 12.9976 13.0998L13 13V4ZM6.5 7C6.77614 7 7 7.22386 7 7.5V11C7 11.2761 6.77614 11.5 6.5 11.5C6.22386 11.5 6 11.2761 6 11V7.5C6 7.22386 6.22386 7 6.5 7ZM9.5 7C9.77614 7 10 7.22386 10 7.5V11C10 11.2761 9.77614 11.5 9.5 11.5C9.22386 11.5 9 11.2761 9 11V7.5C9 7.22386 9.22386 7 9.5 7ZM9.5 1H6.5C5.4289 1 4.55446 1.84198 4.50245 2.90018L4.5 3H8H11.5C11.5 1.9289 10.658 1.05446 9.59982 1.00245L9.5 1Z"
+                            fill="black" />
+                    </svg>
+                    <span>Удалить все позиции</span>
+                </a>
+            </aside>
+        </div>
+    </div>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__top dFlex">
+                <div class="footer__top-contacts dFlex">
+                    <div>
+                        <h3 class="footer__subtitle">Контакты</h3>
+                        <div class="footer__top-contacts__box dFlex">
+                            <div class="footer__top-contacts__box-texts dFlex">
+                                <a class="footer__top-contacts__box-texts__link" href="tel:+79119244396">+7 (911)
+                                    924-43-96</a>
+                                <a href="tel:+79119244396">Заказать
+                                    звонок</a>
+                            </div>
+                            <div class="footer__top-contacts__box-texts dFlex">
+                                <a class="footer__top-contacts__box-texts__link"
+                                    href="mailto:opt@postavka-1.ru">opt@postavka-1.ru</a>
+                                <a href="mailto:opt@postavka-1.ru">Написать на почту</a>
+                            </div>
+                            <div class="footer__top-contacts__box-texts dFlex">
+                                <p>г. Санкт-Петербург</p>
+                                <p class="footer__top-contacts__box-street">ул. Репищева, д.14 литера АД</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__top-contacts__social dFlex">
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="footer__top-box">
+                    <div class="footer__top-box__block dFlex">
+                        <div class="footer__top-catalog">
+                            <h3 class="footer__subtitle">Каталог</h3>
+                            <div class="footer__top-catalog__box dFlex">
+                                <ul class="footer__top-catalog__lists dFlex">
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Профили</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Комплектующие</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Рассеиватели, вставки, торцы</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Светильники</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Инструменты</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Освещение</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Крепеж</a>
+                                    </li>
+                                </ul>
+                                <ul class="footer__top-catalog__lists dFlex">
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Карнизы</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Электрика</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Вентиляция и магнитные решетки</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Диски по металлу, сверла</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Люки</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Сопутствующие товары</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer__top-information">
+                            <h3 class="footer__subtitle">Информация</h3>
+                            <div>
+                                <ul class="footer__top-catalog__lists dFlex">
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">О компании</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Цены</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Акции</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Контакты</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Инструменты</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Освещение</a>
+                                    </li>
+                                    <li class="footer__top-catalog__list">
+                                        <a class="footer__top-catalog__link" href="#">Крепеж</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="footer__top-box__text">Обращаем Ваше внимание на то, что данный интернет-сайт носит
+                        исключительно информационный характер и ни при каких
+                        условиях информационные материалы и цены, размещенные на сайте, не являются публичной офертой,
+                        определяемой положениями
+                        Статей 435 и 437 Гражданского кодекса РФ. Ваш заказ, включая стоимость и наличие товара, будет
+                        подтвержден нашим
+                        менеджером посредством телефонного звонка на номер, указанный Вами при заказе.</p>
+                </div>
+            </div>
+            <div class="footer__bottom dFlex">
+                <a class="header__block-container__box-logo" href="#">
+                    <img class="header__block-container__box-logo__icon" src="./assets/images/icons/logo.svg"
+                        alt="Поставка№1">
+                </a>
+                <div class="footer__bottom-box dFlex">
+                    <div class="footer__bottom-requisites dFlex">
+                        <ul class="footer__bottom-requisites__lists">
+                            <li class="footer__bottom-requisites__list footer__top-box__text">ООО «ПОСТАВКА №1»</li>
+                            <li class="footer__bottom-requisites__list footer__top-box__text">ИНН: 7814569857</li>
+                            <li class="footer__bottom-requisites__list footer__top-box__text">ОГРН: 1137847152827</li>
+                        </ul>
+                        <ul class="footer__bottom-requisites__lists">
+                            <li class="footer__bottom-requisites__list footer__top-box__text">
+                                <a href="#">Политика конфиденциальности</a>
+                            </li>
+                            <li class="footer__bottom-requisites__list footer__top-box__text">
+                                <a href="#"></a>Публичная
+                                оферта</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__bottom-box__partners dFlex">
+                        <a href="#" class="footer__bottom-box__partners-text">Разработка сайта</a>
+                        <a href="#" class="footer__bottom-box__partner">Helmut & Partners</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
